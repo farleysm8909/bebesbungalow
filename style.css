@@ -87,10 +87,12 @@ h1 {
 
 .formContent {
     margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .formElement {
-    display: inline-block; /* Question: Inline block not working as expected */
+    display: inline-block;
 }
 
 .formHead {
