@@ -87,7 +87,7 @@ h1 {
 
 .formContent {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; /* QUESTION: How to center form content? */
 }
 
 .formElement {
