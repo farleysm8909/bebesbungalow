@@ -14,7 +14,6 @@ body {
 nav {
     width: 100%;
     background-color: #551724;
-    margin: 0;
 }
 
 nav ul {
@@ -27,7 +26,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0px 20px;
+    padding: 0px 30px;
     color: white;
     font-family: Arial;
     font-size: 14pt;
@@ -56,4 +55,8 @@ nav ul li {
 h1 {
     text-align: center;
     font-family: Arial;
+}
+
+.homeImg {
+    width: 75%;
 }
