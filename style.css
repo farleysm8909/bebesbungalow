@@ -71,7 +71,6 @@ h1 {
 
 /* CONTACT FORM */
 .form {
-	position: relative;
 	width: 50%;
 	height: 100%;
 	background-color: #ebebeb;
@@ -94,21 +93,13 @@ h1 {
 	background-color: #FFFFFF;
 	width: 240px;
 	height: 35px;
-	position: absolute;
 	border-radius: 10px;
-	z-index: 6;
-}
-
-#first {
-	left: 20px;
-	top: 100px;
 }
 
 .boldText {
 	font-family: Arial;
 	font-size: 9pt;
 	color: #424242;
-	z-index: 7;
 }
 
 ::placeholder {
@@ -118,21 +109,6 @@ h1 {
 	padding-left: 15px;
 	overflow: visible;
 	opacity: 1; /* Firefox */
-}
-
-#last {
-	right: 20px;
-	top: 100px;
-}
-
-#email {
-	left: 20px;
-	top: 170px;
-}
-
-#phone {
-	right: 20px;
-	top: 170px;
 }
 
 .subscribe {
