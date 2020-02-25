@@ -73,7 +73,7 @@ h1 {
 .form {
 	position: relative;
 	width: 50%;
-	height: 50%;
+	height: 100%;
 	background-color: #ebebeb;
 	border-color: #e1e1e1;
 	margin-left: auto;
