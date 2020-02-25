@@ -6,10 +6,9 @@
 ** light brown: #8E7264
 */
 body {
-    font-family: sans-serif;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
 }
 
 nav {
@@ -36,6 +35,8 @@ nav ul li {
     color: white;
 }
 
+/*QUESTION: How to keep nav links to the left from moving on hover?
+* Better way than hard-coding padding left?*/
 .navLinks:hover, .navLinks:focus {
     font-weight: bold;
 }
