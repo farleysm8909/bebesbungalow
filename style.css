@@ -59,7 +59,6 @@ h1 {
     font-family: Arial;
 }
 
-/*QUESTION: Where to upload images to Git?*/
 .homeImg {
     display: block;
     margin-left: auto;
@@ -71,6 +70,9 @@ h1 {
 
 
 /* CONTACT FORM */
+
+/*QUESTION: Is there a global stylesheet in addition to specific ones 
+* or must the nav be redundant on all separate style sheets?*/
 
 .form {
 	width: 50%;
@@ -88,7 +90,7 @@ h1 {
 }
 
 .formElement {
-    display: inline-block;
+    display: inline-block; /* Question: Inline block not working as expected */
 }
 
 .formHead {
