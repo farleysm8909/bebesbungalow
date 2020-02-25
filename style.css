@@ -7,7 +7,7 @@
 */
 body {
     font-family: sans-serif;
-    margin: 0px 200px 50px 200px;
+    margin: auto;
 }
 
 nav {
@@ -19,16 +19,20 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 15px;
 }
 
 nav ul li {
     padding: 0px 20px;
     color: white;
     font-family: Arial;
-    font-size: 16pt;
+    font-size: 14pt;
+}
+
+.last {
+    margin-right: 20%;
 }
 
 h1 {
-    justify-content: center;
+    text-align: center;
 }
