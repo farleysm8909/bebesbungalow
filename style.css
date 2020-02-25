@@ -1,3 +1,19 @@
+/* Color Palette
+** light pink: #AF9193
+** maroon: #551724
+** dark green: #4B4A2C
+** light green: #95966E
+** light brown: #8E7264
+*/
 body {
     font-family: sans-serif;
+    margin: 0px 200px 50px 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #551724;
+    padding: 10px;
 }
