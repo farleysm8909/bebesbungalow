@@ -89,7 +89,7 @@ h1 {
 }
 
 .field {
-	background-color: #FFFFFF;
+	background-color: #f4f4f0;
 	width: 240px;
 	height: 35px;
 	border-radius: 10px;
@@ -109,8 +109,9 @@ h1 {
 
 .subscribe {
 	background-color: #551724;
-	width: 85%;
+    width: 85%;
+    padding: 5px;
 	border-radius: 15px;
-	color: #FFFFFF;
+	color: #f4f4f0;
 	font-size: 14pt;
 }
