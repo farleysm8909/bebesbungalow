@@ -100,7 +100,7 @@ h1 {
 }
 
 ::placeholder {
-	color: #d7d7d7;
+	color: #acacac;
 	font-size: 11pt;
 	padding-left: 15px;
 	overflow: visible;
@@ -110,8 +110,10 @@ h1 {
 .subscribe {
 	background-color: #551724;
     width: 85%;
-    padding: 5px;
+    padding: 5px 0px;
 	border-radius: 15px;
 	color: #f4f4f0;
-	font-size: 14pt;
+    font-size: 14pt;
+    margin-left: auto;
+    margin-right: auto;
 }
