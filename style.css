@@ -59,21 +59,10 @@ h1 {
 
 /*QUESTION: Where to upload images to Git?*/
 .homeImg {
-    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 /* CAROUSEL */
-
-.mySlides {
-    display: none;
-}
-
-.w3-left, .w3-right, .w3-badge {
-    cursor: pointer;
-}
-
-.w3-badge {
-    height: 13px;
-    width: 13px;
-    padding: 0;
-}
