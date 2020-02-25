@@ -66,3 +66,81 @@ h1 {
 }
 
 /* CAROUSEL */
+
+
+/* CONTACT FORM */
+.form {
+	position: relative;
+	width: 550px;
+	height: 300px;
+	background-color: #ebebeb;
+	border-color: #e1e1e1;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formHead {
+	font-size: 18pt;
+	font-family: Sukhumvit Set;
+	position: relative;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.field {
+	background-color: #FFFFFF;
+	width: 240px;
+	height: 35px;
+	position: absolute;
+	border-radius: 10px;
+	z-index: 6;
+}
+
+#first {
+	left: 20px;
+	top: 100px;
+}
+
+.boldText {
+	font-family: Arial;
+	font-size: 9pt;
+	color: #424242;
+	z-index: 7;
+}
+
+::placeholder {
+	color: #d7d7d7;
+	font-family: Arial;
+	font-size: 11pt;
+	padding-left: 15px;
+	overflow: visible;
+	opacity: 1; /* Firefox */
+}
+
+#last {
+	right: 20px;
+	top: 100px;
+}
+
+#email {
+	left: 20px;
+	top: 170px;
+}
+
+#phone {
+	right: 20px;
+	top: 170px;
+}
+
+.subscribe {
+	background-color: #424242;
+	width: 514px;
+	height: 32px;
+	border-radius: 15px;
+	margin-left: 18px;
+	margin-top: 65px;
+	color: #FFFFFF;
+	font-size: 13pt;
+}
