@@ -84,7 +84,11 @@ h1 {
 }
 
 .formContent {
-    margin: 20px;
+    margin: 30px;
+}
+
+.formElement {
+    display: inline-block;
 }
 
 .formHead {
