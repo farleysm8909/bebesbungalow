@@ -60,13 +60,13 @@ h1 {
     text-align: center;
     font-family: Arial;
 }
-/*
+
 .homeImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-}*/
+}
 
 /*change width of content around li items in nav
 use CSS grid for form element in contact page
