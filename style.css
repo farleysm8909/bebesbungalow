@@ -11,6 +11,7 @@ body {
     background-color: #f4f4f0;
 }
 
+
 .container {
     /*display: flex;*/
     width: 960px;
@@ -37,7 +38,7 @@ nav ul li {
     color: white;
     font-family: Arial;
     font-size: 14pt;
-    width: 30px;
+    width: 50px;
 }
 
 .navLinks {
@@ -55,22 +56,17 @@ nav ul li {
     color: #8E7264;
 }
 
-/*QUESTION: How to make margin a percent?*/
-#last {
-    margin-right: 20%;
-}
-
 h1 {
     text-align: center;
     font-family: Arial;
 }
-
+/*
 .homeImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-}
+}*/
 
 /*change width of content around li items in nav
 use CSS grid for form element in contact page
