@@ -28,6 +28,9 @@ body {
     margin-right: auto;
 }
 
+/* QUESTION: How to get nav li items to justify as
+   flex-end but the icon to justify as flex-start*/
+
 nav {
     width: 100%;
     background-color: #4B4A2C;
@@ -62,8 +65,6 @@ nav ul li {
     color: #f4f4f0;
 }
 
-/*QUESTION: How to keep nav links to the left from moving on hover?
-* Better way than hard-coding padding left?*/
 .navLinks:hover, .navLinks:focus {
     font-weight: bold;
 }
@@ -84,9 +85,7 @@ h1 {
     width: 100%;
 }
 
-/*change width of content around li items in nav
-use CSS grid for form element in contact page
-*/
+/*use CSS grid for form element in contact page*/
 
 /* CAROUSEL */
 
