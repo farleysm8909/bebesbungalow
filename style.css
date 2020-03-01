@@ -18,7 +18,7 @@ body {
 .headerBarLeft, .headerBarRight {
     flex-grow: 1;
     background-color: #551724;
-    height: 41px;
+    height: 42px;
 }
 
 .container {
