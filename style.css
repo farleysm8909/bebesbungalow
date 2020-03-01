@@ -37,13 +37,13 @@ nav {
 
 #cabinIcon {
     height: 35px;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
 }
 
 nav ul {
     list-style: none;
-    /*display: flex;
-    flex-direction: row;*/
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     padding: 10px;
     margin-top: 0;
