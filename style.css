@@ -7,6 +7,7 @@
 */
 body {
     display: flex;
+    flex-direction: row;
     margin-top: 0;
     font-family: Arial;
     background-color: #f4f4f0;
@@ -14,6 +15,8 @@ body {
 
 .headerBarLeft, .headerBarRight {
     flex-grow: 1;
+    background-color: #551724;
+    height: 50px;
 }
 
 .container {
@@ -30,15 +33,15 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
     justify-content: flex-end;
     padding: 10px;
     margin-top: 0;
 }
 
 nav ul li {
-    padding: 0px 30px;
+    padding: 0px 35px;
     color: white;
     font-family: Arial;
     font-size: 14pt;
