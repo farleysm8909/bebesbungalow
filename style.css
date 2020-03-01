@@ -33,6 +33,10 @@ nav {
     background-color: #551724;
 }
 
+#cabinIcon {
+    height: 40px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
