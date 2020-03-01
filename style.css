@@ -13,7 +13,7 @@ body {
 
 
 .container {
-    /*display: flex;*/
+    display: flex;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav ul li {
-    /*padding: 0px 0px;*/
+    padding: 0px 30px;
     color: white;
     font-family: Arial;
     font-size: 14pt;
