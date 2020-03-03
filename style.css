@@ -35,10 +35,7 @@ nav {
     width: 100%;
     background-color: #4B4A2C;
     /*display: flex;
-    flex-direction: row;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: row; need this for icon addition?*/
 }
 
 #cabinIcon {
@@ -48,7 +45,9 @@ nav {
 
 nav ul {
     list-style: none;
-    /*cut lines 39-41 from here*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding: 10px;
     margin-top: 0;
 }
