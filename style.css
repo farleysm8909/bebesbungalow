@@ -21,7 +21,7 @@ body {
     height: 55px; /*Is this the best way to align the nav bars?*/
 }
 
-.container {
+.pageContent {
     flex-basis: 960px;
     /*width: 960px;*/
     margin-left: auto;
