@@ -36,6 +36,7 @@ nav {
 
 #cabinIcon {
     height: 25px;
+    padding: 5px;
     /*justify-content: flex-start;*/
 }
 
@@ -49,7 +50,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0px 30px; /*was 35px*/
+    padding-left: 30px; /*was 35px*/
     color: #f4f4f0;
     font-family: Arial;
     font-size: 14pt;
