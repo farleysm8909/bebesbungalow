@@ -89,6 +89,7 @@ h1 {
 
 .about {
     display: inline-block;
+    vertical-align: top;
     width: 450px;
 }
 
