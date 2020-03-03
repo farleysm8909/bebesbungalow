@@ -93,8 +93,7 @@ h1 {
 }
 
 #aboutImg {
-    display: inline-block;
-    width: 400px;
+    width: 450px;
     transform: rotate(-90deg);
 }
 
