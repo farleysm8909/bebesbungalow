@@ -33,8 +33,6 @@ body {
 nav {
     width: 100%;
     background-color: #4B4A2C;
-    /*display: flex;
-    flex-direction: row;*/
 }
 
 #cabinIcon {
@@ -87,6 +85,10 @@ h1 {
     border-width: 2px;
     border-color: black;
     margin-bottom: 80px;*/
+}
+
+.about {
+    display: inline-block;
 }
 
 /*use CSS grid for form element in contact page*/
