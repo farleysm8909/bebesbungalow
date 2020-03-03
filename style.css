@@ -18,7 +18,7 @@ body {
 .headerBarLeft, .headerBarRight {
     flex-grow: 1;
     background-color: #4B4A2C;
-    height: 41.5px; /*Is this the best way to align the nav bars?*/
+    height: 55px; /*Is this the best way to align the nav bars?*/
 }
 
 .container {
@@ -86,7 +86,7 @@ h1 {
 }*/
 
 .item {
-    width: 700px;
+    width: 900px; /*Images shrink weirdly because they're different sizes*/
     height: auto;
     margin-left: auto;
     margin-right: auto;
