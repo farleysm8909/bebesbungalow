@@ -34,8 +34,11 @@ body {
 nav {
     width: 100%;
     background-color: #4B4A2C;
+    /*display: flex;
+    flex-direction: row;*/
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 #cabinIcon {
@@ -45,9 +48,7 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    /*cut lines 39-41 from here*/
     padding: 10px;
     margin-top: 0;
 }
