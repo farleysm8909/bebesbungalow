@@ -89,11 +89,12 @@ h1 {
 
 .about {
     display: inline-block;
+    width: 450px;
 }
 
 #aboutImg {
     width: 400px;
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 
 /*use CSS grid for form element in contact page*/
