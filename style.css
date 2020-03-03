@@ -91,6 +91,11 @@ h1 {
     display: inline-block;
 }
 
+#aboutImg {
+    width: 400px;
+    transform: rotate(180deg);
+}
+
 /*use CSS grid for form element in contact page*/
 
 /* CAROUSEL */
