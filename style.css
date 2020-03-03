@@ -44,10 +44,11 @@ nav {
 }
 
 nav ul {
+    background-color: blue;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 10px;
     margin-top: 0;
 }
@@ -78,13 +79,6 @@ h1 {
     font-family: Arial;
 }
 
-/*.homeImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}*/
-
 .item {
     width: 900px; /*Images shrink weirdly because they're different sizes*/
     height: auto;
@@ -103,9 +97,6 @@ h1 {
 
 
 /* CONTACT FORM */
-
-/*QUESTION: Is there a global stylesheet in addition to specific ones 
-* or must the nav be redundant on all separate style sheets?*/
 
 .form {
 	width: 50%;
