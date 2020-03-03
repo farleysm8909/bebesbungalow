@@ -31,7 +31,6 @@ body {
    flex-end but the icon to justify as flex-start*/
 
 nav {
-    width: 100%;
     background-color: #4B4A2C;
 }
 
@@ -50,11 +49,11 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0px 60px; /*was 35px*/
+    padding: 0px 30px; /*was 35px*/
     color: #f4f4f0;
     font-family: Arial;
     font-size: 14pt;
-    width: 50px;
+    width: 150px;
 }
 
 .navLinks {
@@ -64,6 +63,8 @@ nav ul li {
 
 .navLinks:hover, .navLinks:focus {
     font-weight: bold;
+    color: #f4f4f0;
+    text-decoration: none;
 }
 
 .navLinks:active {
