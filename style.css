@@ -36,7 +36,7 @@ nav {
 
 #cabinIcon {
     height: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     /*justify-content: flex-start;*/
 }
 
@@ -54,7 +54,7 @@ nav ul li {
     color: #f4f4f0;
     font-family: Arial;
     font-size: 14pt;
-    width: 150px;
+    width: 110px;
 }
 
 .navLinks {
