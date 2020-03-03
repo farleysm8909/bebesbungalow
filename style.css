@@ -17,7 +17,7 @@ body {
 
 .headerBarLeft, .headerBarRight {
     flex-grow: 1;
-    /*background-color: #4B4A2C;*/
+    background-color: #4B4A2C;
     height: 55px; /*Is this the best way to align the nav bars?*/
 }
 
