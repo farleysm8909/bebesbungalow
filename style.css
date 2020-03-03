@@ -78,12 +78,12 @@ h1 {
     font-family: Arial;
 }
 
-.homeImg {
+/*.homeImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
+}*/
 
 .item {
     width: 700px;
@@ -91,10 +91,10 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 2px;
     border-color: black;
-    margin-bottom: 80px;
+    margin-bottom: 80px;*/
 }
 
 /*use CSS grid for form element in contact page*/
