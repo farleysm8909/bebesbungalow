@@ -79,7 +79,7 @@ h1 {
 }
 
 .item {
-    width: 900px; /*Images shrink weirdly because they're different sizes*/
+    width: 700px; /*Images shrink weirdly because they're different sizes*/
     height: auto;
     margin-left: auto;
     margin-right: auto;
