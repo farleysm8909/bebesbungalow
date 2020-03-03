@@ -18,7 +18,7 @@ body {
 .headerBarLeft, .headerBarRight {
     flex-grow: 1;
     background-color: #4B4A2C;
-    height: 55px; /*Is this the best way to align the nav bars?*/
+    height: 45px; /*Is this the best way to align the nav bars?*/
 }
 
 .pageContent {
@@ -54,7 +54,7 @@ nav ul li {
     color: #f4f4f0;
     font-family: Arial;
     font-size: 14pt;
-    width: 110px;
+    width: 130px;
 }
 
 .navLinks {
@@ -91,7 +91,7 @@ h1 {
 
 .about {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: ;
     width: 450px;
 }
 
