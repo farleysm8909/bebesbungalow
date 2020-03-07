@@ -94,9 +94,8 @@ h1 {
 }
 
 .about {
-    display: inline-block;
-    vertical-align: top;
-    width: 450px;
+    display: flex;
+    flex-direction: row;
 }
 
 #aboutImg {
