@@ -99,8 +99,8 @@ h1 {
 }
 
 #aboutImg {
-    width: 450px;
-    /*transform: rotate(-90deg);*/
+    height: 450px;
+    transform: rotate(-90deg);
 }
 
 /*use CSS grid for form element in contact page*/
