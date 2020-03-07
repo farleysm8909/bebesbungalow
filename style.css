@@ -95,11 +95,11 @@ h1 {
 
 .about {
     display: inline-block;
-    width: 480px;
+    width: 450px;
 }
 
 #aboutImg {
-    width: 480px;
+    width: 450px;
     transform: rotate(-90deg);
 }
 
