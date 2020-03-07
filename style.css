@@ -93,9 +93,14 @@ h1 {
     margin-bottom: 80px;*/
 }
 
-.about {
+.aboutOwner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.about {
+    width: 450px;
 }
 
 #aboutImg {
