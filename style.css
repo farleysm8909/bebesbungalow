@@ -37,8 +37,6 @@ nav {
 #cabinIcon {
     height: 25px;
     margin-bottom: 3px;
-    position: relative;
-    left: 0px;
 }
 
 nav ul {
@@ -97,12 +95,11 @@ h1 {
 
 .about {
     display: inline-block;
-    vertical-align: top;
-    width: 450px;
+    width: 480px;
 }
 
 #aboutImg {
-    width: 450px;
+    width: 480px;
     transform: rotate(-90deg);
 }
 
