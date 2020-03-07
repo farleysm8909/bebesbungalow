@@ -96,6 +96,7 @@ h1 {
 .aboutOwner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .about {
