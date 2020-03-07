@@ -4,6 +4,7 @@
 	width: 800px;
     height: 100%;
     display: grid;
+    grid-template-columns: auto auto;
 	background-color: #ebebeb;
 	border-color: #e1e1e1;
 	margin-left: auto;
