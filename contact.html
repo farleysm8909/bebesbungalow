@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Contact</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
-
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="history.html" class="navLinks">History</a></li>
-        <li><a href="activities.html" class="navLinks">Activities</a></li>
-        <li><a href="contact.html" class="navLinks">Contact</a></li>
-        <li><a href="comments.html" class="navLinks" id="last">Comments</a></li>
-      </ul>
-    </nav>
-    <h1>Contact</h1>
-  </header>
+  <div class="headerBarLeft"></div>
+  <div class="pageContent">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="images/cabinIconWithBorder.png" id="cabinIcon"></a></li>
+          <li><a href="history.html" class="navLinks">History</a></li>
+          <li><a href="activities.html" class="navLinks">Activities</a></li>
+          <li><a href="contact.html" class="navLinks">Contact</a></li>
+          <li><a href="comments.html" class="navLinks" id="last">Comments</a></li>
+        </ul>
+      </nav>
+      <h1>Contact</h1>
+    </header>
+    <form class="form">
+      <div class="formContent">
+        <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
+        <div class="formElement">
+          <label for="fname" class="boldText">FIRST NAME<span style="color: #6a1212;">*</span></label><br>
+          <input type="text" class="field" id="first" placeholder="Enter Your First Name">
+        </div>
+        <div class="formElement">
+          <label for="lname" class="boldText">LAST NAME<span style="color: #6a1212;">*</span></label><br>
+          <input type="text" class="field" id="last" placeholder="Enter Your Last Name">	
+        </div>
+        <div class="formElement">
+          <label for="email" class="boldText">EMAIL<span style="color: #6a1212;">*</span></label><br>
+          <input type="text" class="field" id="email" placeholder="Enter Your Email Address">
+        </div>
+        <div class="formElement">
+          <label for="phoneNum" class="boldText">PHONE NUMBER</label><br>
+          <input type="text" class="field" id="phone" placeholder="Enter Your Phone Number">
+        </div>
+          <input type="submit" value="Sign me up!" class="subscribe">
+      </div>
+    </form>
+</div>
+<div class="headerBarRight"></div>
 </body>
-	<form class="form">
-        <div class="formContent">
-		<p class="formHead">Want to plan your next visit? Let's get in touch!</p>
-		<div class="formElement">
-            <label for="fname" class="boldText">FIRST NAME<span style="color: #6a1212;">*</span></label><br>
-			<input type="text" class="field" id="first" placeholder="Enter Your First Name">
-		</div>
-		<div class="formElement">
-            <label for="lname" class="boldText">LAST NAME<span style="color: #6a1212;">*</span></label><br>
-			<input type="text" class="field" id="last" placeholder="Enter Your Last Name">	
-		</div>
-		<div class="formElement">
-            <label for="email" class="boldText">EMAIL<span style="color: #6a1212;">*</span></label><br>
-			<input type="text" class="field" id="email" placeholder="Enter Your Email Address">
-		</div>
-		<div class="formElement">
-            <label for="phoneNum" class="boldText">PHONE NUMBER</label><br>
-			<input type="text" class="field" id="phone" placeholder="Enter Your Phone Number">
-		</div>
-		
-        <input type="submit" value="Sign me up!" class="subscribe">
-    </div>
-	</form>
-
 </html>
