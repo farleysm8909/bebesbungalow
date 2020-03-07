@@ -37,7 +37,7 @@ nav {
 #cabinIcon {
     height: 25px;
     margin-bottom: 3px;
-    float: left;
+    position: relative;
 }
 
 nav ul {
