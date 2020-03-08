@@ -3,15 +3,19 @@
 .form {
 	width: 800px;
     height: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
 	background-color: #ebebeb;
 	border-color: #e1e1e1;
 	margin-left: auto;
     margin-right: auto;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formGrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
 
 .formElement {
