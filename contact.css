@@ -23,6 +23,7 @@
 }
 
 #message, #submit {
+    padding: 10px;
     grid-column: 1 / span 2;
 }
 
@@ -60,7 +61,6 @@
 
 .submitBtn {
 	background-color: #551724;
-    width: 85%;
     padding: 5px 0px;
 	border-radius: 15px;
 	color: #f4f4f0;
