@@ -1,6 +1,6 @@
 .seasonContent {
     display: grid;
-    grid-template-columns: 470 470;
+    grid-template-columns: auto auto;
     grid-gap: 20px 50px;
 }
 
@@ -24,4 +24,8 @@
 
 .winter {
     background-color: #c9c9b5;
+}
+
+.actImg {
+    width: 470px;
 }
