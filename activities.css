@@ -2,20 +2,25 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px 50px;
+    border-radius: 5px;
 }
 
 #spring {
-    background-color: #AF9193;
+    background-color: lighten(#AF9193);
 }
 
 #summer {
-    background-color: #95966E;
+    background-color: lighten(#95966E);
 }
 
 #fall {
-    background-color: #8E7264;
+    background-color: lighten(#8E7264);
 }
 
 #winter {
-    background-color: #95966E;
+    background-color: lighten(#95966E);
+}
+
+.seasonContent > p {
+    padding: 10px;
 }
