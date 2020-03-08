@@ -2,20 +2,21 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px 50px;
+    margin: 10px;
 }
 
 #spring {
-    background-color: lighten(#AF9193, 10%);
+    background-color: #AF9193;
 }
 
 #summer {
-    background-color: lighten(#95966E, 10%);
+    background-color: (#95966E;
 }
 
 #fall {
-    background-color: lighten(#8E7264, 30%);
+    background-color: #8E7264;
 }
 
 #winter {
-    background-color: lighten(#95966E, 30%);
+    background-color: #95966E;
 }
