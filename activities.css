@@ -5,17 +5,17 @@
 }
 
 #spring {
-    background-color: lighten(#AF9193);
+    background-color: lighten(#AF9193, 10%);
 }
 
 #summer {
-    background-color: lighten(#95966E);
+    background-color: lighten(#95966E, 10%);
 }
 
 #fall {
-    background-color: lighten(#8E7264);
+    background-color: lighten(#8E7264, 30%);
 }
 
 #winter {
-    background-color: lighten(#95966E);
+    background-color: lighten(#95966E, 30%);
 }
