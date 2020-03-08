@@ -101,7 +101,7 @@ h1 {
 }
 
 .about {
-    width: 450px;
+    flex: 50%;
 }
 
 #aboutImg {
