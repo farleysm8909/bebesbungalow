@@ -4,6 +4,10 @@
     grid-gap: 20px 50px;
 }
 
+.seasonContent > p, .seasonContent > img {
+    padding: 10px;
+}
+
 .spring, .summer, .fall, .winter {
     padding: 5px;
     margin: 20px;
@@ -27,5 +31,5 @@
 }
 
 .actImg {
-    width: 470px;
+    width: 450px;
 }
