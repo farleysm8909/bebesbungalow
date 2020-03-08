@@ -1,6 +1,6 @@
 .seasonContent {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 470 470;
     grid-gap: 20px 50px;
 }
 
