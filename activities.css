@@ -7,20 +7,24 @@
 
 .spring {
     background-color: #AF9193;
-    padding: 10px;
+    padding: 5px;
+    margin: 20px;
 }
 
 .summer {
     background-color: #95966E;
-    padding: 10px;
+    padding: 5px;
+    margin: 20px;
 }
 
 .fall {
     background-color: #8E7264;
-    padding: 10px;
+    padding: 5px;
+    margin: 20px;
 }
 
 .winter {
     background-color: #95966E;
-    padding: 10px;
+    padding: 5px;
+    margin: 20px;
 }
