@@ -22,6 +22,10 @@
     padding: 10px;
 }
 
+#message, #submit {
+    grid-column: 1 / span 2;
+}
+
 .formHead {
 	font-size: 18pt;
 	text-align: center;
@@ -54,7 +58,7 @@
 	opacity: 1; /* Firefox */
 }
 
-.subscribe {
+.submitBtn {
 	background-color: #551724;
     width: 85%;
     padding: 5px 0px;
