@@ -1,15 +1,15 @@
-.images img {
+/*.images img {
     width: 450px;
     height: 300px;
     object-fit: cover;
     display: inline-block;
-}
+}*/
 
 .springHeader {
     position:relative;
     padding:0;
     width:300px;     
-    display:block;
+    display:inline-block;
     cursor:pointer;
     overflow:hidden
 }
