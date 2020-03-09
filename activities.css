@@ -1,6 +1,6 @@
 .images img {
-    width: 450px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
     display: inline-block;
 }
@@ -8,7 +8,7 @@
 .springHeader {
     position:relative;
     padding:0;
-    width:300px;     
+    width:240px;     
     display:inline-block;
     cursor:pointer;
     overflow:hidden
