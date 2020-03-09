@@ -4,9 +4,9 @@
     grid-gap: 20px 50px;
 }
 
-.seasonContent > p, .seasonContent > img {
+/*.seasonContent > p, .seasonContent > img {
     padding: 20px;
-}
+}*/
 
 .spring, .summer, .fall, .winter {
     padding: 5px;
@@ -19,7 +19,7 @@ h2 {
 }
 
 .spring {
-    background-color: #c9b5b6;
+    background-color: #cabcb4;
 }
 
 .summer {
