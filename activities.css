@@ -3,8 +3,8 @@
 }
 
 .images img {
-    width: 235px;
-    height: 235px;
+    width: 237px;
+    height: 237px;
     object-fit: cover;
     display: inline-block;
 }
@@ -12,7 +12,7 @@
 .springHeader {
     position:relative;
     padding:0;
-    width:235px;     
+    width:237px;     
     display:inline-block;
     cursor:pointer;
     overflow:hidden
@@ -26,8 +26,8 @@
     left:0;
     color:#FFFFFF;
     background-color:rgba(200,200,200,0.5);
-    width:230px;
-    height:230px;
+    width:237px;
+    height:237px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
