@@ -3,8 +3,8 @@
 }
 
 .images img {
-    width: 230px;
-    height: 230px;
+    width: 235px;
+    height: 235px;
     object-fit: cover;
     display: inline-block;
 }
@@ -12,7 +12,7 @@
 .springHeader {
     position:relative;
     padding:0;
-    width:230px;     
+    width:235px;     
     display:inline-block;
     cursor:pointer;
     overflow:hidden
@@ -49,8 +49,8 @@
 
 .springHeader .overlay:hover .text {
     opacity:1;
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
+    transform: translateY(90px);
+    -webkit-transform: translateY(90px);
 }
 
 
@@ -71,6 +71,7 @@
 
 h2 {
     padding: 10px;
+    color: white;
 }
 
 .spring h2, .fall h2 {
