@@ -67,27 +67,18 @@
 .spring, .summer, .fall, .winter {
     padding: 5px;
     margin: 20px;
-    border-radius: 5px;
 }
 
 h2 {
     padding: 10px;
 }
 
-.spring {
-    background-color: #cabcb4;
+.spring h2, .fall h2 {
+    background-color: #551724;
 }
 
-.summer {
-    background-color: #c9c9b5;
-}
-
-.fall {
-    background-color: #cabcb4;
-}
-
-.winter {
-    background-color: #c9c9b5;
+.summer h2, .winter h2 {
+    background-color: #4B4A2C;
 }
 
 .actImg {
