@@ -44,7 +44,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 0px;
+    padding: 5px;
     margin-top: 0;
 }
 
