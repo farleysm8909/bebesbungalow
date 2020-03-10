@@ -86,6 +86,8 @@ h2 {
 
 .actImg {
     width: 450px;
+    height: 450px;
+    object-fit: cover;
 }
 
 #fish {
