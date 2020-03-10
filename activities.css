@@ -85,6 +85,12 @@ h2 {
 
 .actImg {
     width: 450px;
-    grid-row-start: 1;
-    grid-row-end: 4;
+}
+
+#fish {
+    grid-row: 1 / 4;
+}
+
+#wakeboard {
+    grid-row: 1 / 4;
 }
