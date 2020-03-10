@@ -85,7 +85,7 @@ h2 {
 }
 
 .spring, .summer, .fall, .winter {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .actImg {
@@ -94,11 +94,11 @@ h2 {
     object-fit: cover;
 }
 
-#fish {
+#fish, #falltrees {
     grid-row: 1 / 4;
 }
 
-#wakeboard {
+#wakeboard, #hockey {
     grid-column-start: 2;
     grid-row: 1 / 4;
 }
