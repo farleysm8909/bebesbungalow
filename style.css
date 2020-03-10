@@ -15,10 +15,37 @@ body {
     margin-left: 0px;
 }
 
-.headerBarLeft, .headerBarRight {
+.leftHeader, .rightHeader {
     flex-grow: 1;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+
+.headerBarLeft, .headerBarRight {
     background-color: #4B4A2C;
-    height: 38.362px; /*Is this the best way to align the nav bars?*/
+    height: 38.362px;
+}
+
+.headerBarLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.leftFoot, .rightFoot, .middleFoot {
+    height: 25px;
+    background-color: #551724;
+}
+
+.leftFoot, .rightFoot {
+    flex-grow: 1;
+}
+
+.middleFoot {
+    text-align: right;
+    color: white;
+    padding: 5px;
 }
 
 .pageContent {
@@ -43,7 +70,7 @@ nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     padding: 5px;
     margin-top: 0;
 }
@@ -106,7 +133,12 @@ h1 {
 
 #aboutImg {
     width: 350px;
-    transform: rotate(-90deg);
 }
 
-/*use CSS grid for form element in contact page*/
+.footerLeft {
+    background-color: #4B4A2C;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
+}
+

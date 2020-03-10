@@ -1,4 +1,9 @@
-.images {
+/* The following code was adapted from
+ * code provided by w3docs: 
+ * https://www.w3docs.com/tools/code-editor/4132
+ */
+
+ .images {
     text-align: center;
 }
 
@@ -10,24 +15,24 @@
 }
 
 .springHeader {
-    position:relative;
-    padding:0;
-    width:237px;     
-    display:inline-block;
-    cursor:pointer;
-    overflow:hidden
+    position: relative;
+    padding: 0;
+    width: 237px;     
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden
 }
 
 .overlay {
-    opacity:0;
+    opacity: 0;
     font-size: 40px;
     position:absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     color:#FFFFFF;
     background-color:rgba(200,200,200,0.5);
-    width:237px;
-    height:237px;
+    width: 237px;
+    height: 237px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -41,35 +46,27 @@
 }
 
 .springHeader .overlay .text {
-    height:0;
-    opacity:1;
+    height: 0;
+    opacity: 1;
     transition-delay: 0s;
     transition-duration: 0.4s;
 }
 
 .springHeader .overlay:hover .text {
-    opacity:1;
+    opacity: 1;
     transform: translateY(90px);
     -webkit-transform: translateY(90px);
 }
 
+/* End code adaptation from w3docs */
 
 .seasonContent {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     grid-gap: 0px 20px;
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
-
-.seasonContent > p, .seasonContent > img {
-    padding: 10px 20px;
-}
-
-/*.spring, .summer, .fall, .winter {
-    padding: 5px;
-    margin: 20px;
-}*/
 
 h2 {
     padding: 10px;

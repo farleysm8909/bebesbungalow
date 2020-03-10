@@ -10,12 +10,16 @@
   <link rel="stylesheet" type="text/css" href="activities.css">
 </head>
 <body>
-  <div class="headerBarLeft"></div>
+  <div class="leftHeader">
+    <div class="headerBarLeft">
+      <a href="index.html"><img src="images/cabinIconWithBorder.png" id="cabinIcon"></a>
+    </div>
+    <div class="leftFoot"></div>
+  </div>
   <div class="pageContent">
     <header>
      <nav>
         <ul>
-          <li><a href="index.html"><img src="images/cabinIconWithBorder.png" id="cabinIcon"></a></li>
           <li><a href="history.html" class="navLinks">History</a></li>
           <li><a href="activities.html" class="navLinks">Activities</a></li>
           <li><a href="contact.html" class="navLinks">Contact</a></li>
@@ -26,7 +30,7 @@
     </header>
     <div class="images">
       <div class="springHeader">
-        <a href="activities.html#spring">
+        <a href="#springHead">
           <img src="images/tulips.JPG">
           <div class="overlay">
             <div class="text">Spring</div>
@@ -34,7 +38,7 @@
         </a>
       </div>
       <div class="springHeader">
-        <a href="activities.html#summer">
+        <a href="#summerHead">
           <img src="images/canoe.JPG">
           <div class="overlay">
             <div class="text">Summer</div>
@@ -42,7 +46,7 @@
         </a>
       </div>
       <div class="springHeader">
-        <a href="activities.html#fall">
+        <a href="#fallHead">
           <img src="images/fourwheel.JPG">
           <div class="overlay">
             <div class="text">Fall</div>
@@ -50,7 +54,7 @@
         </a>
       </div>
       <div class="springHeader">
-        <a href="activities.html#winter">
+        <a href="#winterHead">
           <img src="images/chickadee.JPG">
           <div class="overlay">
             <div class="text">Winter</div>
@@ -59,7 +63,7 @@
       </div>
     </div>
     <div class="spring">
-      <h2>Spring</h2>
+      <h2 id="springHead">Spring</h2>
       <div class="seasonContent">
         <p>Up north, the winter season can stretch all the way into April or even May, so spring is often times cut short. However, there is still plenty to do when the snow starts to melt. One of the main attractions of the season is watching "water skipping," in which snowmobilers will ride their sleds across a stretch of open water. There is a spot in particular on Lake Vermilion where people convene for this sport; however, state regulations recently discouraged this event, so it is now enjoyed less publicly.</p>
         <p>Fish opener occurs during the second week of May in St. Louis County and is even more popular than water skipping. For many people, late spring is the time to get the dock and boat back in the water and catch fish in peace before the summer rush starts and the non-locals flood the lake.</p>
@@ -68,7 +72,7 @@
       </div>
     </div>
     <div class="summer">
-      <h2>Summer</h2>
+      <h2 id="summerHead">Summer</h2>
       <div class="seasonContent">
         <p>Summertime up north offers a host of fun activities; the warm weather opens up doors to leisure and play that remain closed during the other seasons. Watersports in particular are a staple of summertime cabin fun. The following is a list of some of the summertime activities available on Lake Vermilion:</p>
         <ul class="summerList">
@@ -88,24 +92,38 @@
       </div>
     </div>
     <div class="fall">
-      <h2>Fall</h2>
+      <h2 id="fallHead">Fall</h2>
       <div class="seasonContent">
-        <p>When the leaves start to turn colors and the weather begins to drop, it is time for a new array of seasonal events. The most popular attractions for this time of year are hunting (e.g., deer, grouse, duck) and 4-wheeling. The latter event can be enjoyed in the spring and summer as well, but the fall is the best time to go. There are usually fewer mud puddles and bugs, and the colorful trees in mid-October are stunning.</p>
-        <p>Hunting is the other huge attraction; the deer population tends to be much denser up north. For many families, it is the time of year to restock freezers with venison and take another shot at getting that trophy buck (pun intended).</p>
-        <p>At Bebe's Bungalow, fall also means it is time to pick apples. There are four apple trees and two plum trees on the property.</p>
+        <p>When the leaves start to turn colors and the temperature begins to drop, it is time for a new array of seasonal events. The most popular attractions for this time of year are hunting (e.g., deer, grouse, duck) and 4-wheeling. The latter event can be enjoyed in the spring and summer as well, but the fall is the best time to go. There are usually fewer mud puddles and bugs, and the colorful trees in mid-October are stunning.</p>
+        <p>Hunting is the other huge autumn activity; the deer population tends to be much denser up north, so there is no shortage of activity in the stand. For many families, it is the time of year to restock freezers with venison and take another shot at getting that trophy buck (pun intended). Practicing at a target shooting range before hunting season is always an option, too.</p>
+        <p>At Bebe's Bungalow, fall also means it is time to pick apples. There are four apple trees and two plum trees on the property. Fruit production is often sparse due to the greedy neighborhood deer, but the few that remain are worth all of the seasons of waiting. Baking and eating apple pie, apple crisp, or simply just fresh apple slices is a key tradition of the fall season.</p>
         <img src="images/falltrees.JPG" class="actImg" id="falltrees">
       </div> 
     </div> 
     <div class="winter">
-      <h2>Winter</h2>
+      <h2 id="winterHead">Winter</h2>
       <div class="seasonContent">
-        <p>Up north, the winter season can stretch all the way into April or even May, so spring is often times cut short. However, there is still plenty to do when the snow starts to melt. One of the main attractions of the season is watching "water skipping," in which snowmobilers will ride their sleds across a stretch of open water. There is a spot in particular on Lake Vermilion where people convene for this sport; however, state regulations discouraged this event, so it is now enjoyed less publicly.</p>
-        <p>Fish opener occurs during the second week of May in St. Louis County and is perhaps even more popular than water skipping. For many people, late spring is the time to get the dock and boat back in the water and catch fish in peace before the summer rush starts and the non-locals flood the lake.</p>
-        <p>With the melting of the snow also comes cleared walking paths and more active wildlife. Both people and animals can be seen more outdoors, and it is not uncommon to see wolf tracks or bear scat in the woods. Hikes, boat rides, and gardening once the ground thaws are other springtime activities enjoyed up north.</p>
+        <p>Although the winters are long, there are still plenty of opportunities to enjoy the outdoors. These activities turn an otherwise depressing month into one the residents on Lake Vermilion look forward to.</p>
+        <p>Snowmobiling is, by far, the most popular winter sport. There are countless trails criss-crossing northern Minnesota and beyond, so it is all too easy to hop on your sled and go for a ride. Many people even ride their snowmobiles into town to pick up a few groceries or run errands since the trails are often in better shape than the roads. The following is a list of other winter pasttimes:</p>
+        <ul>
+          <li>Snowmobiling</li>
+          <li>Ice fishing</li>
+          <li>Snowboarding/skiing</li>
+          <li>Snowshoeing</li>
+          <li>Spear fishing</li>
+          <li>Sledding</li>
+          <li>Ice skating</li>
+          <li>Ice/boot hockey</li>
+        </ul>
         <img src="images/hockey.JPG" class="actImg" id="hockey">
       </div>
     </div>
+    <div class="middleFoot">© Samantha Farley 2020</div>
   </div>
-  <div class="headerBarRight"></div>
+
+  <div class="rightHeader">
+    <div class="headerBarRight"></div>
+    <div class="rightFoot"></div>
+  </div>
 </body>
 </html>
