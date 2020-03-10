@@ -5,6 +5,9 @@
 ** light green: #95966E
 ** light brown: #8E7264
 */
+
+/* --------PAGE LAYOUT-------- */
+
 body {
     display: flex;
     flex-direction: row;
@@ -54,8 +57,7 @@ body {
     margin-right: auto;
 }
 
-/* QUESTION: How to get nav li items to justify as
-   flex-end but the icon to justify as flex-start*/
+/* --------NAVIGATION-------- */
 
 nav {
     background-color: #4B4A2C;
@@ -98,19 +100,25 @@ nav ul li {
     color: #8E7264;
 }
 
+/* --------PAGE STYLING-------- */
+
 h1 {
     text-align: center;
     font-family: Arial;
     margin-bottom: 30px;
 }
 
+/* --------CAROUSEL-------- */
+
 .container {
     width: 960px;
     margin-bottom: 30px;
+    padding: 0;
 }
+
 .item {
-    width: 700px; /*Images shrink weirdly because they're different sizes*/
-    height: auto;
+    width: 700px; 
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -119,6 +127,14 @@ h1 {
     border-color: black;
     margin-bottom: 80px;*/
 }
+
+.item > img {
+    object-fit: cover;
+    height: 500px;
+    width: 700px;
+}
+
+/* --------ABOUT OWNER-------- */
 
 .aboutOwner {
     display: flex;
@@ -131,14 +147,15 @@ h1 {
     flex: 50%;
 }
 
-#aboutImg {
-    width: 350px;
+#abtImage {
+    text-align: right;
 }
 
-.footerLeft {
-    background-color: #4B4A2C;
-    height: 25px;
-    bottom: 0;
-    width: 100%;
+#aboutImg {
+    width: 400px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
