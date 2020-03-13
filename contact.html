@@ -8,6 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="contact.css">
+  <script defer src="form.js"></script>
 </head>
 <body>
   <div class="headerBarLeft"></div>
@@ -28,27 +29,27 @@
         <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
         <div class="formGrid">
           <div class="formElement">
-            <label for="fname" class="boldText">FIRST NAME<span style="color: #6a1212;">*</span></label><br>
-            <input type="text" class="field" id="first" placeholder="Enter Your First Name">
+            <label for="first-name-input" class="boldText">FIRST NAME<span style="color: #6a1212;">*</span></label><br>
+            <input type="text" class="field" id="first-name-input" placeholder="Enter Your First Name">
           </div>
           <div class="formElement">
-            <label for="lname" class="boldText">LAST NAME<span style="color: #6a1212;">*</span></label><br>
-            <input type="text" class="field" id="last" placeholder="Enter Your Last Name">	
+            <label for="last-name-input" class="boldText">LAST NAME<span style="color: #6a1212;">*</span></label><br>
+            <input type="text" class="field" id="last-name-input" placeholder="Enter Your Last Name">	
           </div>
           <div class="formElement">
-            <label for="email" class="boldText">EMAIL<span style="color: #6a1212;">*</span></label><br>
-            <input type="text" class="field" id="email" placeholder="Enter Your Email Address">
+            <label for="email-input" class="boldText">EMAIL<span style="color: #6a1212;">*</span></label><br>
+            <input type="text" class="field" id="email-input" placeholder="Enter Your Email Address">
           </div>
           <div class="formElement">
-            <label for="phoneNum" class="boldText">PHONE NUMBER</label><br>
-            <input type="text" class="field" id="phone" placeholder="Enter Your Phone Number">
+            <label for="phone-input" class="boldText">PHONE NUMBER</label><br>
+            <input type="text" class="field" id="phone-input" placeholder="Enter Your Phone Number">
           </div>
           <div id="message">
-            <label for="message" class="boldText">MESSAGE<span style="color: #6a1212;">*</span></label><br>
-            <textarea name="message" rows="10" cols="50" class="textField" placeholder="Enter your message here"></textarea>
+            <label for="message-input" class="boldText">MESSAGE<span style="color: #6a1212;">*</span></label><br>
+            <textarea name="message" rows="10" cols="50" class="textField" id="message-input" placeholder="Enter your message here"></textarea>
           </div>
           <div id="submit">
-            <input type="submit" value="Submit" class="submitBtn">
+            <input type="submit" value="Submit" id="submit-button" disabled>
           </div> 
         </div>   
     </form>
