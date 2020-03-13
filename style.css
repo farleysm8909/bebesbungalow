@@ -20,14 +20,14 @@ body {
 
 .leftHeader, .rightHeader {
     flex-grow: 1;
-    /*display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 .headerBarLeft, .headerBarRight {
     background-color: #4B4A2C;
-    height: 38.362px;
+    height: 36.4px;
 }
 
 .headerBarLeft {
@@ -41,12 +41,8 @@ body {
     background-color: #551724;
 }
 
-.leftFoot, .rightFoot {
-    flex-grow: 1;
-}
-
-.middleFoot {
-    text-align: right;
+.rightFoot {
+    text-align: center;
     color: white;
     padding: 5px;
 }

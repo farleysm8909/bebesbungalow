@@ -2,42 +2,53 @@ const submitButton = document.getElementById('submit-button');
 const fnameInput = document.getElementById('first-name-input');
 const lnameInput = document.getElementById('last-name-input');
 const emailInput = document.getElementById('email-input');
-const phoneInput = document.getElementById('phone-input');
 const messageInput = document.getElementById('message-input');
+const form = document.getElementById('form');
 
-submitButton.disabled = true;
+/*submitButton.disabled = true;*/
 
-fnameInput.addEventListener('input', () => {
-  if (fnameInput.value.match(/^\w+$/)) {
-      submitButton.disabled = false;
-  } else {
-      submitButton.disabled = true;
-  }
-});
+/* Form validation code adapted from Stack Overflow: 
+https://stackoverflow.com/questions/12457710/validation-of-input-text-field-in-html-using-javascript */
 
-lnameInput.addEventListener('input', () => {
-  if (lnameInput.value.match(/^\w+$/)) {
-      submitButton.disabled = false;
-  } else {
-      submitButton.disabled = true;
-  }  
-});
+function validateForm(form) {
+    if (isString(fnameInput)) {
+        if (isString(lnameInput)) {
+            if (isEmail(emailInput)) {
+                if (isString(messageInput)) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
 
-emailInput.addEventListener('input', () => {
-    if ((emailInput.value.match(/^\w+$/)) && (emailInput.value.includes("@"))) {
-        submitButton.disabled = false;
+function isString(field) {
+
+    let fieldData = field.value;
+
+    if (fieldData.match(/^\w+$/)) {
+        return true;
     } else {
-        submitButton.disabled = true;
-    }  
-  });
+        alert("Please fill out any blank required fields.")
+        return false;
+    }
+}
 
-messageInput.addEventListener('input', () => {
-    if (messageInput.value.match(/^\w+$/)) {
-        submitButton.disabled = false;
+/* Email validation code adapted from w3resource.com: 
+https://www.w3resource.com/javascript/form/email-validation.php */
+
+function isEmail(field) {
+
+    let fieldInput = field.value;
+
+    if ((/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(fieldInput))) {
+        return true;
     } else {
-        submitButton.disabled = true;
-    }  
-  });
+        alert("Please enter a valid email address.")
+        return false;
+    }
+}
 
 
 

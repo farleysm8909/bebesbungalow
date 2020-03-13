@@ -5,7 +5,7 @@
 	/*background-color: #ebebeb;
 	border-color: #e1e1e1;*/
 	background-color: #ebebeb;
-	border-color: #4B4A2C;
+	border: 2px solid #95966E;
 	margin-left: auto;
     margin-right: auto;
 	border-radius: 10px;
@@ -50,6 +50,12 @@
 
 .boldText {
 	font-size: 9pt;
+}
+
+.requiredSymbol {
+	color: #551724; /*Was #6a1212*/
+	font-size: 11pt;
+	font-weight: bold;
 }
 
 ::placeholder {
