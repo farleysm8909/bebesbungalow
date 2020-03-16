@@ -34,6 +34,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-left: 132.25px; /* I did this because flex-grow: 1 on leftHeader and rightHeader did not include the footer and cabin icon elements (so this padding is equal to the width of the footer minus the width of the cabin icon). The page wasn't centered otherwise */
 }
 
 .leftFoot, .rightFoot, .middleFoot {
@@ -99,6 +100,32 @@ nav ul li {
     color: #8E7264;
 }
 
+#menu-button {
+    display: none;
+}
+
+/* --------RESPONSIVE NAVIGATION-------- */
+
+@media (max-width: 600px) {
+    header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+}
+
+
+
 /* --------PAGE STYLING-------- */
 
 h1 {
@@ -106,6 +133,14 @@ h1 {
     font-family: Arial;
     margin-bottom: 30px;
     color: #551724;
+}
+
+h3 {
+    color: #551724;
+}
+
+h2, h4 {
+    color: #4B4A2C;
 }
 
 /* --------CAROUSEL-------- */
