@@ -34,7 +34,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-left: 132.25px; /* I did this because flex-grow: 1 on leftHeader and rightHeader did not include the footer and cabin icon elements (so this padding is equal to the width of the footer minus the width of the cabin icon). The page wasn't centered otherwise */
+}
+
+.headerBarRight {
+    padding-right: 33.6px; /* I did this because flex-grow: 1 on leftHeader did not include the cabin icon element (so this padding is equal to the width of the cabin icon). The page wasn't centered otherwise */
 }
 
 .leftFoot, .rightFoot, .middleFoot {
@@ -42,14 +45,11 @@ body {
     background-color: #551724;
 }
 
-.rightFoot {
-    text-align: left;
-    color: white;
-    padding: 5px;
-}
-
 .middleFoot {
     margin-top: 50px;
+    text-align: right;
+    color: white;
+    padding: 5px;
 }
 
 .pageContent {
@@ -164,7 +164,7 @@ h2, h4 {
     flex: 50%;
 }
 
-#abtImage {
+#aboutImageContainer {
     text-align: right;
 }
 
@@ -178,6 +178,25 @@ h2, h4 {
 
 
 /* --------RESPONSIVE NAVIGATION-------- */
+@media (min-width: 601px) and (max-width: 1080px) {
+    .pageContent {
+        width: 70%;
+    }
+
+    .leftHeader, .rightHeader {
+        width: 15%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #aboutImg {
+        width: 90%;
+        height: auto;
+    }
+}
+
 
 @media (max-width: 600px) {
     header {
@@ -250,7 +269,7 @@ h2, h4 {
         flex-direction: column;
     }
 
-    #abtImage {
+    #aboutImageContainer {
         text-align: center;
     }
 
