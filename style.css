@@ -178,7 +178,7 @@ h2, h4 {
 
 
 /* --------RESPONSIVE NAVIGATION-------- */
-@media (min-width: 601px) and (max-width: 1080px) {
+@media (min-width: 701px) and (max-width: 1080px) {
     .pageContent {
         width: 70%;
     }
@@ -198,7 +198,7 @@ h2, h4 {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     header {
         background-color: #4B4A2C;
         box-sizing: border-box;

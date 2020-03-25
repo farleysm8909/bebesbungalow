@@ -1,7 +1,7 @@
 /* CONTACT FORM */
 
 .form {
-	width: 800px;
+	width: 960px;
 	/*background-color: #ebebeb;
 	border-color: #e1e1e1;*/
 	background-color: #ebebeb;
@@ -25,7 +25,6 @@
 }
 
 #message, #submit {
-    padding: 10px;
     grid-column: 1 / span 2;
 }
 
@@ -75,4 +74,20 @@
     font-size: 14pt;
     margin-left: auto;
     margin-right: auto;
+}
+
+  /* --------RESPONSIVE NAVIGATION-------- */
+  @media (min-width: 701px) and (max-width: 1080px) {
+	.form {
+		width: 100%;
+	}
+	
+	.formGrid {
+        display: flex;
+        flex-direction: column;
+	}
+	
+	#message-input {
+		width: 100%;
+	}
 }
