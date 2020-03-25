@@ -100,8 +100,8 @@ h2 {
     grid-row: 1 / 4;
 }
 
-  /* --------RESPONSIVE NAVIGATION-------- */
-  @media (min-width: 701px) and (max-width: 1080px) {
+  /* --------RESPONSIVE DESIGN-------- */
+  @media (max-width: 1080px) {
     .seasonContent {
         display: flex;
         flex-direction: column;
@@ -109,5 +109,11 @@ h2 {
 
     .seasonContent > img {
         width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .images {
+        display: none;
     }
 }

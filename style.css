@@ -177,7 +177,7 @@ h2, h4 {
 }
 
 
-/* --------RESPONSIVE NAVIGATION-------- */
+/* --------RESPONSIVE DESIGN-------- */
 @media (min-width: 701px) and (max-width: 1080px) {
     .pageContent {
         width: 70%;
