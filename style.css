@@ -100,12 +100,17 @@ nav ul li {
     color: #8E7264;
 }
 
-#menu-button {
+#menu-button, #home-button {
     display: none;
     padding: 10px;
     align-self: stretch;
     align-items: center;
     justify-content: center;
+}
+
+#home-button {
+    width: auto;
+    height: 34px;
 }
 
 /* --------PAGE STYLING-------- */
@@ -222,8 +227,12 @@ h2, h4 {
         padding: 60px 10px 0px 10px;
     }
     
-    #menu-button {
+    #menu-button, #home-button {
         display: flex;
+    }
+
+    #home-button {
+        margin-top: 10px;
     }
     
     nav {
