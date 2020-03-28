@@ -40,7 +40,7 @@
     </header>
     <main>
       <h1>Contact</h1>
-      <form class="form" action="" onsubmit="return validateForm(this)">
+      <form class="form" action="" method="POST" enctype="text/plain" onsubmit="return validateForm(this)"> <!--action="mailto:someone@example.com" method="post" enctype="text/plain" WAS just action="" onsubmit="return validateForm(this) replace with: "action="mailto:farley@tombensam.com" when ready-->
           <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
           <div class="formGrid">
             <div class="formElement">
@@ -59,12 +59,12 @@
               <label for="phone-input" class="boldText">PHONE NUMBER</label><br>
               <input type="text" class="field" id="phone-input" placeholder="Enter Your Phone Number">
             </div>
-            <div class="formElement" id="message">
+            <div class="formElement" id="message-container">
               <label for="message-input" class="boldText">MESSAGE<span class="requiredSymbol"> *</span></label><br>
               <textarea name="message" rows="10" cols="50" maxlength="200" class="textField" id="message-input" placeholder="Enter your message here"></textarea>
             </div>
-            <div class="formElement" id="submit">
-              <input type="submit" value="Submit" id="submit-button">
+            <div class="formElement" id="submit-container">
+              <input type="submit" value="SUBMIT" id="submit-button">
             </div> 
           </div>   
       </form>

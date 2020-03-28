@@ -15,6 +15,9 @@ function validateForm(form) {
         if (isString(lnameInput)) {
             if (isEmail(emailInput)) {
                 if (isString(messageInput)) {
+                    /* Display animation to assure user their submission was successful 
+                    https://codepen.io/valentingalmand/pen/MYMZZK */
+
                     return true;
                 }
             }
