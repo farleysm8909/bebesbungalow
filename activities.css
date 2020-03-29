@@ -14,7 +14,7 @@
     display: inline-block;
 }
 
-.springHeader {
+.seasonHeader {
     position: relative;
     padding: 0;
     width: 237px;     
@@ -26,6 +26,7 @@
 .overlay {
     opacity: 0;
     font-size: 40px;
+    font-family: 'Cabin', sans-serif;
     position:absolute;
     top: 0;
     left: 0;
@@ -41,18 +42,18 @@
     text-align:center;
 }
 
-.springHeader .overlay:hover {
+.seasonHeader .overlay:hover {
     opacity: 1;
 }
 
-.springHeader .overlay .text {
+.seasonHeader .overlay .text {
     height: 0;
     opacity: 1;
     transition-delay: 0s;
     transition-duration: 0.4s;
 }
 
-.springHeader .overlay:hover .text {
+.seasonHeader .overlay:hover .text {
     opacity: 1;
     transform: translateY(90px);
     -webkit-transform: translateY(90px);
