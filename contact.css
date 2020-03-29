@@ -43,7 +43,6 @@
 
 .textField {
     background-color: #f4f4f0;
-	width: 500px;
 	border-radius: 10px;
 }
 
@@ -65,14 +64,19 @@
 	opacity: 1; /* Firefox */
 }
 
+#submit-container {
+	margin-left: auto;
+    margin-right: auto;
+}
+
 #submit-button {
     background-color: #551724;
     width: 100%;
-    padding: 5px 0px;
+    padding: 5px 25px;
 	border-radius: 15px;
 	color: #f4f4f0;
-    font-size: 14pt;
-    margin-left: auto;
+	font-size: 14pt;
+	margin-left: auto;
     margin-right: auto;
 }
 
@@ -88,11 +92,12 @@
 	
 	.formGrid {
         display: flex;
-        flex-direction: column;
+		flex-direction: column;
+		align-items: center;
 	}
 	
 	#message-input {
-		width: 100%;
+		width: 240px;
 	}
 }
 
