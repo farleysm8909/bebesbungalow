@@ -260,7 +260,7 @@ h2, h4 {
         width: 100%;
     }
 
-    .leftHeader, .rightHeader {
+    .leftHeader, .rightHeader, .leftFoot, .rightFoot {
         display: none;
     }
 
@@ -270,10 +270,6 @@ h2, h4 {
         width: 100%;
     }
 
-    .leftFoot, .rightFoot {
-        display: none;
-    }
-
     .aboutOwner {
         flex-direction: column;
     }
@@ -281,8 +277,6 @@ h2, h4 {
     #aboutImageContainer {
         text-align: center;
     }
-
-      
 
 }
 
