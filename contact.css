@@ -29,7 +29,8 @@
 }
 
 .formHead {
-	font-size: 18pt;
+	font-size: 20pt;
+	font-family: 'Cabin', sans-serif;
 	text-align: center;
 	padding: 15px 10px 0px 10px;
 }
