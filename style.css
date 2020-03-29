@@ -78,7 +78,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-left: 30px; /*was 35px*/
+    padding-left: 30px;
     color: #f4f4f0;
     font-family: Arial;
     font-size: 14pt;
@@ -248,12 +248,27 @@ h2, h4 {
     
     nav > ul {
         flex-direction: column;
+        margin-bottom: 0;
+        padding: 0;
     }
     
     nav > ul > li {
         background-color: #4B4A2C;
         border-top: 1px solid white;
         color: white;
+        padding: 3px 0 3px 20px;
+    }
+
+    nav > ul > li:hover {
+        background-color: #95966E;
+    }
+
+    .navlinks:hover {
+        font-weight: normal;
+    }
+
+    nav > ul > li:active, .active {
+        background-color: #95966E;
     }
 
     .pageContent {
