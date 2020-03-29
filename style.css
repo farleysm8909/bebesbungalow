@@ -115,9 +115,16 @@ nav ul li {
 
 /* --------PAGE STYLING-------- */
 
+h1, h2, h3, h4, .navLinks {
+    font-family: 'Cabin', sans-serif;
+}
+
+.navLinks {
+    letter-spacing: 0.05em;
+}
+
 h1 {
     text-align: center;
-    font-family: Arial;
     margin-bottom: 30px;
     color: #551724;
 }
@@ -126,9 +133,9 @@ h3 {
     color: #551724;
 }
 
-h2, h4 {
+/*h2, h4 {
     color: #4B4A2C;
-}
+}*/
 
 /* --------CAROUSEL-------- */
 
