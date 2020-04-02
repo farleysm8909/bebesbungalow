@@ -1,21 +1,39 @@
 .memory-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .memory-unit {
-    box-sizing: border-box;
     width: 300px;
-    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.memory-unit:nth-child(odd) {
     border: 5px solid #95966E;
+}
+
+.memory-unit:nth-child(even) {
+    border: 5px solid #8E7264;
 }
 
 .memory-img-container {
     text-align: center;
 }
 
-.memory-img-container > img {
-    object-fit: contain;
-    width: 260px;
+.memory-img-container img {
+    object-fit: cover;
+    width: 290px;
     height: 260px;
+}
+
+.caption {
+    padding: 15px 10px 10px 10px;
+}
+
+.caption-author {
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 12pt;
 }
