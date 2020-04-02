@@ -1,0 +1,21 @@
+.memory-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.memory-unit {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    border: 5px solid #95966E;
+}
+
+.memory-img-container {
+    text-align: center;
+}
+
+.memory-img-container > img {
+    object-fit: contain;
+    width: 260px;
+    height: 260px;
+}
