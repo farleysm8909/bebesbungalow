@@ -8,6 +8,8 @@
 .memory-unit {
     width: 300px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .memory-unit:nth-child(odd) {
@@ -25,7 +27,7 @@
 .memory-img-container img {
     object-fit: cover;
     width: 290px;
-    height: 250px;
+    height: 230px;
 }
 
 .caption {
