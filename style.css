@@ -138,58 +138,6 @@ h3 {
     color: #4B4A2C;
 }*/
 
-/* --------CAROUSEL-------- */
-
-.container {
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 0;
-}
-
-.item {
-    width: 700px; 
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    /*border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    margin-bottom: 80px;*/
-}
-
-.item > img {
-    object-fit: cover;
-    height: 500px; /*these don't compete with bootstrap's 800px width and auto height, look into CSS precedents?*/
-    width: 700px;
-}
-
-/* --------ABOUT OWNER-------- */
-
-.aboutOwner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-.about {
-    flex: 50%;
-}
-
-#aboutImageContainer {
-    text-align: right;
-}
-
-#aboutImg {
-    width: 400px;
-    height: auto;
-}
-
-.bold {
-    font-weight: bold;
-}
-
 
 /* --------RESPONSIVE DESIGN-------- */
 @media (min-width: 701px) and (max-width: 1080px) {
@@ -199,14 +147,6 @@ h3 {
 
     .leftHeader, .rightHeader {
         width: 15%;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    #aboutImg {
-        width: 90%;
     }
 }
 
@@ -291,18 +231,5 @@ h3 {
         margin-top: 20px;
         width: 100%;
     }
-
-    .aboutOwner {
-        flex-direction: column;
-    }
-
-    #aboutImageContainer {
-        text-align: center;
-    }
-
-    #aboutImg {
-        width: 90%;
-    }
-
 }
 

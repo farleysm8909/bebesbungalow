@@ -1,0 +1,72 @@
+/* --------CAROUSEL-------- */
+
+.container {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.item {
+    width: 700px; 
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item > img {
+    object-fit: cover;
+    height: 500px;
+    width: 700px;
+}
+
+/* --------ABOUT OWNER-------- */
+
+.aboutOwner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about {
+    flex: 50%;
+}
+
+#aboutImageContainer {
+    text-align: right;
+}
+
+#aboutImg {
+    width: 400px;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* --------RESPONSIVE DESIGN-------- */
+@media (min-width: 701px) and (max-width: 1080px) {
+    .carousel-container {
+        width: 100%;
+    }
+
+    #aboutImg {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .aboutOwner {
+        flex-direction: column;
+    }
+
+    #aboutImageContainer {
+        text-align: center;
+    }
+
+    #aboutImg {
+        width: 90%;
+    }
+}
