@@ -183,6 +183,7 @@ h3 {
 
 #aboutImg {
     width: 400px;
+    height: auto;
 }
 
 .bold {
@@ -206,10 +207,8 @@ h3 {
 
     #aboutImg {
         width: 90%;
-        height: auto;
     }
 }
-
 
 @media (max-width: 700px) {
     header {
@@ -299,6 +298,10 @@ h3 {
 
     #aboutImageContainer {
         text-align: center;
+    }
+
+    #aboutImg {
+        width: 90%;
     }
 
 }
