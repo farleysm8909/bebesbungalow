@@ -1,9 +1,9 @@
 /* Color Palette
-** light pink: #AF9193
 ** maroon: #551724
 ** dark green: #4B4A2C
 ** light green: #95966E
 ** light brown: #8E7264
+** dark brown: #472f17
 ** font-family: 'Cabin', sans-serif;
 */
 
@@ -130,14 +130,9 @@ h1 {
     color: #472f17;
 }
 
-h3 {
+h2, h3, h4 {
     color: #472f17;
 }
-
-/*h2, h4 {
-    color: #4B4A2C;
-}*/
-
 
 /* --------RESPONSIVE DESIGN-------- */
 @media (min-width: 701px) and (max-width: 1080px) {
