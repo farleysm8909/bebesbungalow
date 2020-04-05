@@ -39,3 +39,23 @@
     font-family: 'Cabin', sans-serif;
     font-size: 12pt;
 }
+
+@media (max-width: 874px) {
+    .memory-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .memory-unit {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .memory-img-container img {
+        width: 100%;
+        height: auto;
+    }
+}
