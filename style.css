@@ -43,7 +43,7 @@ body {
 
 .leftFoot, .rightFoot, .middleFoot {
     height: 25px;
-    background-color: #551724;
+    background-color: #472f17;
 }
 
 .middleFoot {
@@ -127,11 +127,11 @@ h1, h2, h3, h4, .navLinks {
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: #551724;
+    color: #472f17;
 }
 
 h3 {
-    color: #551724;
+    color: #472f17;
 }
 
 /*h2, h4 {
