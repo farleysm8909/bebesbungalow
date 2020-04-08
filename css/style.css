@@ -13,7 +13,10 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 0;
-    font-family: Arial;
+    font-family: freight-text-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12pt;
     background-color: #f4f4f0;
     margin-right: 0px;
     margin-left: 0px;
@@ -47,10 +50,11 @@ body {
 }
 
 .middleFoot {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: right;
     color: white;
-    padding: 5px;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
 }
 
 .pageContent {
@@ -132,6 +136,10 @@ h1 {
 
 h2, h3, h4 {
     color: #472f17;
+}
+
+.subtitle {
+    text-align: center;
 }
 
 /* --------RESPONSIVE DESIGN-------- */
@@ -225,6 +233,7 @@ h2, h3, h4 {
         height: 40px;
         margin-top: 20px;
         width: 100%;
+        padding: 8px 2px;
     }
 }
 

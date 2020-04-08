@@ -44,7 +44,6 @@
         <h1>Bebe's Bungalow</h1>
         <h3 class="subtitle">The Farley Family cabin on Lake Vermilion in Tower, MN</h3>
         <!--Begin carousel-->
-        <div class="carousel-container">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -87,12 +86,29 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        </div>
         <!--End carousel-->
-        <div class="aboutOwner">
-          <div class="about">
+        <h2>About the Cabin</h2>
+        <div class="about-container" id="aboutCabinContainer">
+          <div class="about-block">
+            <p>Bebe's Bungalow has been in the family ever since Florence &quot;Bebe&quot; Belay purchased it in 1975. Since then, it has become a place for family and friends to gather and spend quality time together while enjoying all that Lake Vermilion has to offer.</p>
+          </div>
+          <div class="about-block">
+            <p>The following video was filmed and edited by the very talented Trey Fortner. It offers a glimpse as to what life is like at the cabin during the summer&mdash;grilling, hanging out by the fire, fireworks over the lake, watersports, and spending time with loved ones.</p>
+          </div>
+          <div class="about-block" id="cabinVideoContainer">
+            <video controls id="cabinVid" poster="images/index/video_screenshot.PNG">
+              <source src="images/index/farley-cabin-compressed.mp4" alt="video of family and friends at the cabin on July 4th, 2015" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="about-container">
+          <div class="about-block" id="aboutImageContainer">
+            <img src="images/index/aboutOwner.JPG" id="aboutImg" alt="Cathy Farley smiling while frying fish">
+          </div>
+          <div class="about-block">
             <h2>About the Owner</h2>
-            <p>Catherine Farley is the granddaughter of the original owner of Bebe's Bungalow, Florence "Bebe" Belay. She used to visit her grandmother at the cabin on Lake Vermilion every summer when she was a kid growing up in Eau Claire, WI. She always enjoyed the endless activities available up north and, above all, spending time with family. Her favorite activity with Bebe was fishing for walleye. Catherine now owns the cabin after Bebe passed in 2004 and enjoys living up north year round, surrounded by friends, family, and the beautiful outdoors.</p>
+            <p>Catherine Farley is the granddaughter of the original owner of Bebe's Bungalow, Florence "Bebe" Belay. Catherine used to visit her grandmother at the cabin on Lake Vermilion every summer when she was a kid growing up in Eau Claire, WI. She always enjoyed the endless activities available up north and, above all, spending time with family. Her favorite activity with Bebe was fishing for walleye. Catherine now owns the cabin after Bebe passed in 2004 and enjoys living up north year round, surrounded by friends, family, and the beautiful outdoors.</p>
             <h3>Fun Facts</h3>
             <p><span class="bold">Born:</span> July 11, 1966</p>
             <p><span class="bold">Married:</span> June 11, 1988 to Dr. David Farley</p>
@@ -110,9 +126,6 @@
               </ul>
             </p>  
             <p><span class="bold">Favorite Cabin Memory:</span> "Loading up the boats on the dock and going through the checklist the morning we head into the Boundary Waters"</p>
-          </div>
-          <div class="about" id="aboutImageContainer">
-            <img src="images/index/aboutOwner.JPG" id="aboutImg" alt="Cathy Farley smiling while frying fish">
           </div>
         </div>
       </main>

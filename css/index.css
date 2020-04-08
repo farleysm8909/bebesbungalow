@@ -1,13 +1,4 @@
-.subtitle {
-    text-align: center;
-}
-
 /* --------CAROUSEL-------- */
-
-.carousel-container {
-    width: 100%;
-    padding: 0;
-}
 
 .item {
     width: 700px; 
@@ -23,26 +14,45 @@
     width: 700px;
 }
 
-/* --------ABOUT OWNER-------- */
+#myCarousel {
+    margin-bottom: 30px;
+}
 
-.aboutOwner {
+/* --------ABOUT CABIN/OWNER-------- */
+
+.about-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 
-.about {
-    flex: 50%;
+#aboutCabinContainer {
+    margin-top: 10px;
+}
+
+.about-block {
+    width: 470px;
+}
+
+#cabinVideoContainer {
+    margin-top: 30px;
+    text-align: right;
+}
+
+#cabinVid {
+    width: 960px;
+    object-fit: cover;
 }
 
 #aboutImageContainer {
-    text-align: right;
+    text-align: left;
     margin-top: 20px;
 }
 
 #aboutImg {
-    width: 400px;
+    width: 470px;
     height: auto;
 }
 
@@ -56,13 +66,24 @@
         width: 100%;
     }
 
+    .about-block {
+        width: 100%;
+    }
+
+    #cabinVid {
+        width: 100%;
+    }
+
     #aboutImg {
-        width: 90%;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
     }
 }
 
 @media (max-width: 700px) {
-    .aboutOwner {
+    .about-container {
         flex-direction: column;
     }
 
@@ -70,7 +91,13 @@
         text-align: center;
     }
 
+    #aboutImg, #cabinVid, .about-block {
+        width: 100%;
+    }
+
     #aboutImg {
-        width: 90%;
+        height: 350px;
+        object-fit: cover;
+        object-position: top;
     }
 }

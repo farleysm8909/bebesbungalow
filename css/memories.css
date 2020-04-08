@@ -40,6 +40,11 @@
     font-size: 12pt;
 }
 
+/* Let memory-units margin-bottom take care of margin between last units and footer */
+.middleFoot {
+    margin-top: 0;
+}
+
 @media (max-width: 874px) {
     .memory-container {
         flex-direction: column;
