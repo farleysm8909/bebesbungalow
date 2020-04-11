@@ -6,26 +6,24 @@ const phoneInput = document.getElementById('phone-input');
 const messageInput = document.getElementById('message-input');
 const submitButton = document.getElementById('submit-button');
 
-const pageHeading = document.getElementById('page-heading');
 const animatedElement = document.querySelector('#form');
-
+const pageHeading = document.getElementById('page-heading');
 const middleFooter = document.getElementById('mfooter');
 const leftFooter = document.getElementById('lfooter');
 const rightFooter = document.getElementById('rfooter');
 
-/* Remove form and adjust positioning of footers after form submission */
+/* Remove form and footers after form submission */
 animatedElement.addEventListener('animationend', () => {
     formElement.style.display = "none";
-    /*leftFooter.style.position = "fixed";
-    middleFooter.style.position = "fixed";
-    rightFooter.style.position = "fixed";*/
-    leftFooter.classList.add("moveFooters");
-    middleFooter.classList.add("moveFooters");
-    rightFooter.classList.add("moveFooters");
-  });
+    leftFooter.style.display = "none";
+    middleFooter.style.display = "none";
+    rightFooter.style.display = "none";
+});
 
 /* Form validation code adapted from Stack Overflow: 
-https://stackoverflow.com/questions/12457710/validation-of-input-text-field-in-html-using-javascript */
+https://stackoverflow.com/questions/12457710/validation-of-input-text-field-in-html-using-javascript 
+
+CSS keyframes animation code adapted from code by Chris Johnson as well as https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event */
 
 function validateForm() {
     if (isString(fnameInput)) {
@@ -34,6 +32,9 @@ function validateForm() {
                 if (isPhoneNum(phoneInput)) {
                     if (isString(messageInput)) {
                         formElement.classList.add("fading-out");
+                        leftFooter.classList.add("fading-out");
+                        middleFooter.classList.add("fading-out");
+                        rightFooter.classList.add("fading-out");
                         pageHeading.classList.add("fading-in");
                         pageHeading.innerHTML = "Success! The form has been submitted";
                     }
@@ -42,21 +43,6 @@ function validateForm() {
         }
     }
 }
-
-/* This doesn't work
-function startAnimation(element) {
-    var op = 1;  // initial opacity
-    var timer = setInterval(function () {            
-        if (op <= 0.1){
-           clearInterval(timer);
-           element.style.display = 'none';
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.1;
-    }, 50);
-    alert("reached animate");
-}*/
 
 /* ---- Form Input Validation Tests ---- */
 

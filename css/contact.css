@@ -112,18 +112,13 @@
 }
 
 .fading-in {
-	animation-duration: 5s;
+	animation-duration: 1s;
 	animation-name: fadein;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-left: -292.345px;
 	margin-top: -19.6px;
-}
-
-.moveFooters {
-	position: absolute;
-	top: 75%;
 }
 
   /* --------RESPONSIVE DESIGN-------- */
