@@ -1,6 +1,6 @@
 /* CONTACT FORM */
 
-.form {
+#form {
 	width: 960px;
 	/*background-color: #ebebeb;
 	border-color: #e1e1e1;*/
@@ -84,6 +84,46 @@
 
 #submit-button:hover {
 	background-color: #4B4A2C;
+}
+
+/* ---------CSS FORM ANIMATION--------*/
+
+@keyframes fadeout {
+	from {
+	  opacity: 100%;
+	}
+	to {
+	  opacity: 0%;
+	}
+  }
+
+  @keyframes fadein {
+	  from {
+		  opacity: 0%;
+	  }
+	  to {
+		  opacity: 100%;
+	  }
+  }
+
+.fading-out {
+	animation-duration: 1s;
+	animation-name: fadeout;
+}
+
+.fading-in {
+	animation-duration: 5s;
+	animation-name: fadein;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -292.345px;
+	margin-top: -19.6px;
+}
+
+.moveFooters {
+	position: absolute;
+	top: 75%;
 }
 
   /* --------RESPONSIVE DESIGN-------- */

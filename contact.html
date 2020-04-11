@@ -18,7 +18,7 @@
     <div class="headerBarLeft">
       <a href="index.html"><img src="images/logos/cabiniconboldwhite.png" id="cabinIcon" alt="cabin logo"></a>
     </div>
-    <div class="leftFoot"></div>
+    <div class="leftFoot" id="lfooter"></div>
   </div>
   <div class="pageContent">
     <header>
@@ -41,9 +41,9 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="main-content">
       <h1 id="page-heading">Contact</h1>
-      <form class="form" action="" method="POST" enctype="text/plain" onsubmit="return validateForm(this)"> 
+      <form id="form" action="" method="post" enctype="text/plain" onsubmit="validateForm();return false"> 
         <!--action="mailto:someone@example.com" method="post" enctype="text/plain" WAS just action="" onsubmit="return validateForm(this) replace with: "action="mailto:farley@tombensam.com" when ready-->
           <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
           <div class="formGrid">
@@ -73,11 +73,11 @@
           </div>   
       </form>
     </main>
-    <div class="middleFoot">&copy; Samantha Farley 2020</div>
+    <div class="middleFoot" id="mfooter">&copy; Samantha Farley 2020</div>
   </div>
   <div class="rightHeader">
     <div class="headerBarRight"></div>
-    <div class="rightFoot"></div>
+    <div class="rightFoot" id="rfooter"></div>
   </div>
 </body>
 </html>
