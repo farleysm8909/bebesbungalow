@@ -8,13 +8,6 @@ const submitButton = document.getElementById('submit-button');
 
 const pageHeading = document.getElementById('page-heading');
 
-function processForm(e) {
-    if (validateForm(form)) {
-        startAnimation(form);
-        pageHeading.innerHTML = "Success!";
-    }
-    e.preventDefault();
-}
 
 /* Form validation code adapted from Stack Overflow: 
 https://stackoverflow.com/questions/12457710/validation-of-input-text-field-in-html-using-javascript */
@@ -25,6 +18,7 @@ function validateForm(form) {
             if (isEmail(emailInput)) {
                 if (isPhoneNum(phoneInput)) {
                     if (isString(messageInput)) {
+                        alert("Success! The form has been submitted");
                         return true;
                     }
                 }
@@ -33,20 +27,6 @@ function validateForm(form) {
     }
     return false;
 }
-
-function startAnimation(element) {
-    var op = 1;  // initial opacity
-    var timer = setInterval(function () {
-        if (op <= 0.1){
-            clearInterval(timer);
-            element.style.display = 'none';
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.1;
-    }, 50);
-}
-
 
 /* ---- Form Input Validation Tests ---- */
 
