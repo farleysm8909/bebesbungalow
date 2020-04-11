@@ -12,7 +12,6 @@
   <link rel="stylesheet" type="text/css" href="css/contact.css">
   <script defer src="js/mobile-nav.js"></script>
   <script defer src="js/form.js"></script>
-  
 </head>
 <body>
   <div class="leftHeader">
@@ -43,25 +42,26 @@
       </nav>
     </header>
     <main>
-      <h1>Contact</h1>
-      <form class="form" action="" method="POST" enctype="text/plain" onsubmit="return validateForm(this)"> <!--action="mailto:someone@example.com" method="post" enctype="text/plain" WAS just action="" onsubmit="return validateForm(this) replace with: "action="mailto:farley@tombensam.com" when ready-->
+      <h1 id="page-heading">Contact</h1>
+      <form class="form" action="" method="POST" enctype="text/plain" onsubmit="processForm()"> 
+        <!--action="mailto:someone@example.com" method="post" enctype="text/plain" WAS just action="" onsubmit="return validateForm(this) replace with: "action="mailto:farley@tombensam.com" when ready-->
           <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
           <div class="formGrid">
             <div class="formElement">
               <label for="first-name-input" class="boldText">FIRST NAME<span class="requiredSymbol"> *</span></label><br>
-              <input type="text" class="field" id="first-name-input" placeholder="Enter Your First Name">
+              <input type="text" class="field" id="first-name-input" placeholder="Enter your first name">
             </div>
             <div class="formElement">
               <label for="last-name-input" class="boldText">LAST NAME<span class="requiredSymbol"> *</span></label><br>
-              <input type="text" class="field" id="last-name-input" placeholder="Enter Your Last Name">	
+              <input type="text" class="field" id="last-name-input" placeholder="Enter your last name">	
             </div>
             <div class="formElement">
               <label for="email-input" class="boldText">EMAIL<span class="requiredSymbol"> *</span></label><br>
-              <input type="text" class="field" id="email-input" placeholder="Enter Your Email Address">
+              <input type="text" class="field" id="email-input" placeholder="Enter your email address">
             </div>
             <div class="formElement">
               <label for="phone-input" class="boldText">PHONE NUMBER</label><br>
-              <input type="text" class="field" id="phone-input" placeholder="Enter Your Phone Number">
+              <input type="tel" class="field" id="phone-input" maxlength="10" placeholder="Enter your phone number">
             </div>
             <div class="formElement" id="message-container">
               <label for="message-input" class="boldText">MESSAGE<span class="requiredSymbol"> *</span></label><br>
