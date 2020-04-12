@@ -33,7 +33,7 @@ function validateForm() {
         if (isString(lnameInput)) {
             if (isEmail(emailInput)) {
                 if (isPhoneNum(phoneInput)) {
-                    if (isString(messageInput)) {
+                    if (isMessage(messageInput)) {
                         formElement.classList.add("fading-out");
                         leftFooter.classList.add("fading-out");
                         middleFooter.classList.add("fading-out");
@@ -52,10 +52,24 @@ function validateForm() {
 function isString(field) {
     let fieldData = field.value;
 
-    if (fieldData.match(/^\w+$/)) {
+    if (fieldData.match(/^\w+$/) || fieldData.match(/^\s?/)) { /* account for names with spaces like van Heerden */
         return true;
     } else {
         alert("Please fill out any blank required fields.")
+        return false;
+    }
+}
+
+/* Email validation code adapted from w3resource.com: 
+https://www.w3resource.com/javascript/form/email-validation.php */
+
+function isEmail(field) {
+    let fieldInput = field.value;
+
+    if ((/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(fieldInput))) {
+        return true;
+    } else {
+        alert("Please enter a valid email address.")
         return false;
     }
 }
@@ -71,16 +85,13 @@ function isPhoneNum(field) {
     }
 }
 
-/* Email validation code adapted from w3resource.com: 
-https://www.w3resource.com/javascript/form/email-validation.php */
+function isMessage(field) {
+    let fieldData = field.value;
 
-function isEmail(field) {
-    let fieldInput = field.value;
-
-    if ((/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(fieldInput))) {
+    if (fieldData.length != 0) {
         return true;
     } else {
-        alert("Please enter a valid email address.")
+        alert("Please fill out any blank required fields.")
         return false;
     }
 }
