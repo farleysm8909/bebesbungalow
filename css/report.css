@@ -1,5 +1,9 @@
-.prompt, .answer, .report-list, .critique {
+body {
     font-family: sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Cabin', sans-serif;
 }
 
 .prompt {
@@ -11,4 +15,12 @@
 
 .report-list li {
     padding: 5px 0px;
+}
+
+.critique-heading {
+    font-weight: bold;
+}
+
+.critique-list-outer > li {
+    margin: 10px;
 }
