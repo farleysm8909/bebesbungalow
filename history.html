@@ -43,8 +43,8 @@
     <main>
       <h1>History</h1>
       <h3 class="subtitle">The property history of Bebe's Bungalow “Lot 7, Section 4, Township 62, Range 16”</h3>
-      <div class="old-cabin-photo">
-        <img src="images/history/cabin-then.jpg" alt="Black and white image of Bebe's Bungalow circa 1970">
+      <div class="old-cabin-photo-container">
+        <img src="images/history/cabin-then.jpg" id="old-cabin-photo" alt="Black and white image of Bebe's Bungalow circa 1970">
       </div>
       <!-- main timeline section -->
       <section id="cd-timeline" class="cd-container cssanimations">
@@ -206,9 +206,19 @@
           </div>
         </div>
       </section>
-      <div class="new-cabin-photos">
-        <img src="images/history/boathouseremodel.PNG" alt="The boathouse getting a new foundation" id="boathouse-photo">
-        <img src="images/history/cabin-now.jpg" alt="A renovated Bebe's Bungalow circa 2016">
+      <div class="new-cabin-photo-container">
+        <div class="img-container">
+          <img src="images/history/boathouseremodel.PNG" id="boathouse-photo" class="new-cabin-photo" alt="The boathouse getting a new foundation">
+          <div class="overlay">
+            <p class="caption">Boathouse Remodel<br>2010</p>
+          </div>
+        </div>
+        <div class="img-container">
+          <img src="images/history/cabin-now.jpg" class="new-cabin-photo" alt="A renovated Bebe's Bungalow circa 2016">
+          <div class="overlay">
+            <p class="caption">Cabin Remodel<br>2014</p>
+          </div>
+        </div>
       </div>
     </main>
     <div class="middleFoot">&copy; Samantha Farley 2020</div>

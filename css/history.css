@@ -1,20 +1,52 @@
-h4 {
-  text-align: center;
-}
-
-.old-cabin-photo > img {
+#old-cabin-photo {
   width: 960px;
   height: 400px;
   object-fit: cover;
 }
 
-.new-cabin-photos {
+/* Caption overlay code adapted from W3Schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+
+.img-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4B4A2C;
+}
+
+.img-container:hover .overlay {
+  opacity: .80;
+}
+
+.caption {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.new-cabin-photo-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.new-cabin-photos > img {
+.new-cabin-photo {
   width: 465px;
   height: 300px;
   object-fit: cover;
@@ -104,11 +136,11 @@ h4 {
 /* --------RESPONSIVE DESIGN-------- */
 
 @media (max-width: 1080px) {
-  .old-cabin-photo > img, .new-cabin-photos > img {
+  #old-cabin-photo, .new-cabin-photo {
     width: 100%;
   }
 
-.new-cabin-photos {
+.new-cabin-photo-container {
     display: flex;
     flex-direction: column;
   }
