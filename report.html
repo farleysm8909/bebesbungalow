@@ -84,37 +84,50 @@
                 <p class="prompt">Your site must not be built using any libraries or frameworks. Do not use Bootstrap, jQuery, React, Angular, Vue, or any other third-party tools. You may, however, reimplement the ideas you see in these third-party tools.</p>
                 <p class="answer">I did use Bootstrap for the image carousel on the homepage (I got the "ok" from you via Slack on this), but other than that I stayed away from libraries/frameworks. I also implemented and adapted code from sources like Stack Overflow and W3Schools, but I provided credit where it was due in my comments.</p>
               </li>
+
+
               <li>
                 <p class="prompt">Each page and stylesheet of your site must validate without any warnings or errors using the W3C’s HTML validator and CSS validator.</p>
+                <p class="answer">COMPLETE THIS PART</p>
               </li>
               <li>
                 <p class="prompt">Your site must be stored in a Git repository that you have shared with your instructor. On GitHub, GitLab, and Bitbucket, share with the user twodee.</p>
+                <p class="answer">I stored my site in a public <a href="https://github.com/farleysm8909/project1" target="_blank">Git repository</a> on GitHub and shared that URL with my instructor. I'm not versed in GitLab or Bitbucket so I can't speak for those platforms.</p>
               </li>
               <li>
                 <p class="prompt">The names of your files should be entirely lowercase and contain only alphanumeric characters.</p>
+                <p class="answer">I believe my files follow this naming convention.</p>
                 </li>
               <li>
                 <p class="prompt">Your site must be served out of port 8443.</p></li>
+                <p class="answer">My site is served out of port 8443 (it is visible at https://bebesbungalow.duckdns.org:8443).</p>
               <li>
                 <p class="prompt">Your site must be accessed only through HTTPS. You are encouraged to use Let’s Encrypt to obtain a free certificate.</p>
+                <p class="answer">I obtained the free certificate and thus my site can only be accessed through HTTPS.</p>
               </li>
               <li>
                 <p class="prompt">Your content should be neatly aligned. The axes should be clearly visible.</p>
+                <p class="answer">Thanks to your reminder in one of our weekly meetings, I expanded all images to the bounding axes instead of shrinking them down like I sometimes try to in web design. I do think it looks better this way so I do not intend to take that former design route again! I believe everything else (text, form, etc.) is also neatly aligned.</p>
               </li>
               <li>
                 <p class="prompt">Your site must use at least two different font faces. Headings are often rendered in a sans-serif font, and copy in a serif font.</p>
+                <p class="answer">Cheesy as it may sound, I used a sans-serif font called "Cabin" for headings and a serif font for the body copy called "freight-text-pro."</p>
               </li>
               <li>
                 <p class="prompt">Your site must include at least one form (or informal collection of input elements). The form might submit data to a server or invoke some client-side JavaScript function that alters the page. The action is not specified.</p>
+                <p class="answer">I created a form on the "Contact" page for users to get in touch with my client. Once the user enters valid information into the input fields and submits the form, the "mailto:" action that is associated with the form is supposed to open up the user's default mail app so they can email my client from there (I did not otherwise utilize any server-side programming). I learned that this "mailto:" feature isn't guaranteed to launch email apps depending on the browser, but the client does not mind this as the form was directed to one of her "junk" email addresses anyway. It had been agreed that the form was more for the purpose of learning JavaScript than user benefit. It is worth mentioning here that the form submission triggers the animation (see question #21 for further details).</p>
               </li>
               <li>
                 <p class="prompt">Your site must include links to external sites. Clicking on external links must open a new tab or window rather than replace your page.</p>
+                <p class="answer">My site includes several links to external sites for users to learn more about Lake Vermilion and the Tower, MN area (see <a href="activities.html">Activities</a>. I am a big fan of the _target="blank" anchor attribute and made sure to use it for each link.</p>
               </li>
               <li>
                 <p class="prompt">Your source code must be readable, using conventional and consistent formatting and meaningful names for classes and IDs.</p>
+                <p class="answer">I believe my code is legible&mdash;I use appropriate indentation/spacing, meaningful names, and comments to help with organization&mdash;although I welcome feedback on this (in addition to all other parts of this project!). Side note: after completing this website, I think what I would do differently in regard to naming conventions would be to maybe choose kebab style for class naming and camel case for ID naming. I like that this would add another layer of distinction between ID's and classes other than simply a "." versus a "#" in the CSS files. (I caught myself getting an "element by ID" in my form.js file when I was actually getting the element's class name. It cost me a bit of time to figure that one out!) Are there any naming styles/techniques like this that you stick to or find useful?</p>
               </li>
               <li>
                 <p class="prompt">Your site must include at least one animation, powered either by CSS or JavaScript.</p>
+                <p class="answer">For my animation, I used CSS keyframes and followed the documentation you had sent me over Slack (thank you again for this!). Once the user submits the form, everything below the navigation bar fades away and a success message appears in its place. The turning point was figuring out that I had to add "returnfalse" to my form's onsubmit="validateForm()" call, otherwise the page would simply refresh instead of properly displaying the animation (I believe it displayed it, but only in the time it took to process the function). Also, I originally tried the JavaScript example you had sent, but at the time, I was unable to figure out how to integrate it with my form validation code (I think I could figure it out now, though, now that I solved the returnfalse mystery and have a better understanding of the code). I spent a lot of time figuring out how to make this animation work, though, and I'm proud of myself for sticking with it.</p>
               </li>
           </ol>
       </div>
