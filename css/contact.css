@@ -123,7 +123,7 @@
 
   /* --------RESPONSIVE DESIGN-------- */
   @media (max-width: 1080px) {
-	.form {
+	#form {
 		width: 100%;
 	}
 	

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="images/logos/cabiniconlightgreen.png" alt="favicon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/report.css">
+  <script defer src="js/mobile-nav.js"></script>
+</head>
+<body>
+  <div class="leftHeader">
+    <div class="headerBarLeft">
+      <a href="index.html"><img src="images/logos/cabiniconboldwhite.png" id="cabinIcon" alt="cabin logo"></a>
+    </div>
+    <div class="leftFoot" id="lfooter"></div>
+  </div>
+  <div class="pageContent">
+    <header>
+      <div id="home-button">
+        <a href="index.html"><img src="images/logos/cabiniconboldwhite.png" id="cabinIcon" alt="cabin logo"></a>
+      </div>
+      <div id="menu-button">
+        <svg viewBox="0 0 100 80" width="30" height="30">
+          <rect fill="white" width="100" height="15"></rect>
+          <rect fill="white" y="30" width="100" height="15"></rect>
+          <rect fill="white" y="60" width="100" height="15"></rect>
+        </svg>
+      </div>
+      <nav id="navigation">
+        <ul>
+          <li><a href="history.html" class="navLinks">History</a></li>
+          <li><a href="activities.html" class="navLinks">Activities</a></li>
+          <li><a href="contact.html" class="navLinks">Contact</a></li>
+          <li><a href="memories.html" class="navLinks">Memories</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <h1 id="page-heading">Report</h1>
+      <div class="itemized-breakdown">
+        <h2>Itemized Breakdown</h2>
+          <ol class="report-list">
+              <li>
+                <p class="prompt">"You will create a website for a client of your choosing. Your client could be a family member, a business, a student group, a friend, an online community, and so on. The only restriction is that the client cannot be just you."</p>
+                <p class="answer">I chose my mom, Catherine Farley as my client. She wanted a website for our family's cabin as she is always trying to get friends and family to make the drive up and visit!</p>
+            </li>
+              <li>
+                <p class="prompt">Your site must include some sort of header.</p>
+                <p class="answer">My site has a dark green header which contains the navigation links and homepage icon, as well as the hamburger icon in the mobile version.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must contain at least five separate pages, each having a meaningful purpose.</p>
+                <p class="answer">My site contains five distinct pages: a homepage (provides users with an initial sense of what/who Bebe's Bungalow is all about), a history page (contains a timeline that details the property's history, giving users a sense of the origins of the cabin and how it got passed down to Bebe Belay), an activities page (shows users what fun things they can do at Bebe's Bungalow), a contact page (allows users to get in touch with the owner, Catherine Farley, as the form is submitted to one of her email addresses), and a memories page (allows users to learn what others' have experienced at the cabin, which may influence their desire to visit).</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must include some sort of navigation links.</p>
+                <p class="answer">My site includes four navigation links and an icon that links to the homepage.</p></li>
+              <li>
+                <p class="prompt">Your site must support distinct layouts for large and small screens. For instance, multicolumn layouts on large screens should be reduced to single column layouts on small screens. You are encouraged to implement separate layouts using CSS media queries.</p>
+                <p class="answer">I created a mobile layout for my site that adjusts to both tablet- and mobile-sized device widths. For example, the multi-column layouts in the desktop home, activities, contact and memories pages are all reduced to a single-column layout. The hamburger icon replaces the desktop navigation links in mobile versions. Images were resized and, in some cases, cropped to better fit the mobile versions. I discovered the "object-position" CSS property which was useful for "cropping" images as well (e.g. see line 81 in index.css pertaining to the aboutOwner image).</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must maintain a coherent style across its pages. Global style rules must be placed in a shared stylesheet. Individual pages’ style rules must be placed in a separate stylesheets.</p>
+                <p class="answer">I made sure to have separate CSS stylesheets for each page (there is a corresponding CSS file for every HTML file). There is also a global "style.css" file.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must include images, and their alt attributes must adequately describe the image content to users of screen readers, user with images disabled, and webcrawlers.</p>
+                <p class="answer">I added alt text to each image, being careful to cut to the point (but not withhold important information) in my descriptions. One of my jobs during my internship last summer was to write alt text for Subaru.com's images, and I learned that it is often better to cut to the point than be lengthy in image descriptions. Being succinct cuts wait times for screen readers to relay information and helps users understand the images more quickly, allowing them to continue on with what are likely the more important parts of the website.</p>
+              </li>
+              <li>
+                <p class="prompt">Each page must declare its favicon.</p>
+                <p class="answer">Each page establishes a mini,  green version of the homepage icon as its favicon. I purposefully made it green as opposed to white or black because I wanted it to be visible on both light and dark themed browsers.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site’s non-HTML resources must be organized. Images must be placed in a directory named images. CSS files must be placed in a directory named css. JavaScript must be placed in a directory named js.</p>
+                <p class="answer">I followed the above organization guidelines, but I also added page-specific folders within my "images" directory due to the high quantity of images used in the website (e.g., there is an "index" folder within the "images" directory that stores the homepage images).</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must not be built using any libraries or frameworks. Do not use Bootstrap, jQuery, React, Angular, Vue, or any other third-party tools. You may, however, reimplement the ideas you see in these third-party tools.</p>
+                <p class="answer">I did use Bootstrap for the image carousel on the homepage (I got the "ok" from you via Slack on this), but other than that I stayed away from libraries/frameworks. I also implemented and adapted code from sources like Stack Overflow and W3Schools, but I provided credit where it was due in my comments.</p>
+              </li>
+              <li>
+                <p class="prompt">Each page and stylesheet of your site must validate without any warnings or errors using the W3C’s HTML validator and CSS validator.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must be stored in a Git repository that you have shared with your instructor. On GitHub, GitLab, and Bitbucket, share with the user twodee.</p>
+              </li>
+              <li>
+                <p class="prompt">The names of your files should be entirely lowercase and contain only alphanumeric characters.</p>
+                </li>
+              <li>
+                <p class="prompt">Your site must be served out of port 8443.</p></li>
+              <li>
+                <p class="prompt">Your site must be accessed only through HTTPS. You are encouraged to use Let’s Encrypt to obtain a free certificate.</p>
+              </li>
+              <li>
+                <p class="prompt">Your content should be neatly aligned. The axes should be clearly visible.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must use at least two different font faces. Headings are often rendered in a sans-serif font, and copy in a serif font.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must include at least one form (or informal collection of input elements). The form might submit data to a server or invoke some client-side JavaScript function that alters the page. The action is not specified.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must include links to external sites. Clicking on external links must open a new tab or window rather than replace your page.</p>
+              </li>
+              <li>
+                <p class="prompt">Your source code must be readable, using conventional and consistent formatting and meaningful names for classes and IDs.</p>
+              </li>
+              <li>
+                <p class="prompt">Your site must include at least one animation, powered either by CSS or JavaScript.</p>
+              </li>
+          </ol>
+      </div>
+      <div class="client-critique">
+        <h2>Client Critique</h2>
+          <p>Text here.</p>
+      </div>
+    </main>
+    <div class="middleFoot" id="mfooter">&copy; Samantha Farley 2020</div>
+  </div>
+  <div class="rightHeader">
+    <div class="headerBarRight"></div>
+    <div class="rightFoot" id="rfooter"></div>
+  </div>
+</body>
+</html>
