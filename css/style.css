@@ -131,10 +131,9 @@ h1, h2, h3, h4, .navLinks {
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: #472f17;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
     color: #472f17;
 }
 
@@ -148,6 +147,7 @@ h2, h3, h4 {
 }
 
 /* --------RESPONSIVE DESIGN-------- */
+
 @media (min-width: 701px) and (max-width: 1080px) {
     .pageContent {
         width: 70%;

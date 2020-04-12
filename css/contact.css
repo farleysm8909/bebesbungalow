@@ -53,7 +53,7 @@
 }
 
 .requiredSymbol {
-	color: #551724; /*Was #6a1212*/
+	color: #551724;
 	font-size: 11pt;
 	font-weight: bold;
 }
@@ -122,6 +122,7 @@
 }
 
   /* --------RESPONSIVE DESIGN-------- */
+  
   @media (max-width: 1080px) {
 	#form {
 		width: 100%;

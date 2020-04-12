@@ -20,14 +20,14 @@
     width: 237px;     
     display: inline-block;
     cursor: pointer;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .overlay {
     opacity: 0;
     font-size: 40px;
     font-family: 'Cabin', sans-serif;
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     color:#FFFFFF;
@@ -39,7 +39,7 @@
     -o-transition: all 400ms ease-out;
     -ms-transition: all 400ms ease-out;
     transition: all 400ms ease-out;
-    text-align:center;
+    text-align: center;
 }
 
 .seasonHeader .overlay:hover {
@@ -99,6 +99,7 @@ h2 {
 }
 
   /* --------RESPONSIVE DESIGN-------- */
+  
   @media (max-width: 1080px) {
     .seasonContent {
         display: flex;

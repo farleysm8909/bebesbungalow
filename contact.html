@@ -43,34 +43,33 @@
     </header>
     <main id="main-content">
       <h1 id="page-heading">Contact</h1>
-      <form id="form" action="" method="post" enctype="text/plain" onsubmit="validateForm();return false"> 
-        <!--action="mailto:someone@example.com" method="post" enctype="text/plain" WAS just action="" onsubmit="return validateForm(this) replace with: "action="mailto:farley@tombensam.com" when ready-->
-          <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
-          <div class="formGrid">
-            <div class="formElement">
-              <label for="first-name-input" class="boldText">FIRST NAME<span class="requiredSymbol"> *</span></label><br>
-              <input type="text" class="field" id="first-name-input" placeholder="Enter your first name">
-            </div>
-            <div class="formElement">
-              <label for="last-name-input" class="boldText">LAST NAME<span class="requiredSymbol"> *</span></label><br>
-              <input type="text" class="field" id="last-name-input" placeholder="Enter your last name">	
-            </div>
-            <div class="formElement">
-              <label for="email-input" class="boldText">EMAIL<span class="requiredSymbol"> *</span></label><br>
-              <input type="text" class="field" id="email-input" placeholder="Enter your email address">
-            </div>
-            <div class="formElement">
-              <label for="phone-input" class="boldText">PHONE NUMBER</label><br>
-              <input type="tel" class="field" id="phone-input" maxlength="10" placeholder="Enter your phone number">
-            </div>
-            <div class="formElement" id="message-container">
-              <label for="message-input" class="boldText">MESSAGE<span class="requiredSymbol"> *</span></label><br>
-              <textarea name="message" rows="8" cols="68" maxlength="500" class="textField" id="message-input" placeholder="Enter your message here"></textarea>
-            </div>
-            <div class="formElement" id="submit-container">
-              <input type="submit" value="submit" id="submit-button" class="boldText">
-            </div> 
-          </div>   
+      <form id="form" action="mailto:farley@tombensam.com" method="post" enctype="text/plain" onsubmit="validateForm();return false"> 
+        <p class="formHead">Want to plan your next visit? Let's get in touch!</p>
+        <div class="formGrid">
+          <div class="formElement">
+            <label for="first-name-input" class="boldText">FIRST NAME<span class="requiredSymbol"> *</span></label><br>
+            <input type="text" class="field" id="first-name-input" placeholder="Enter your first name">
+          </div>
+          <div class="formElement">
+            <label for="last-name-input" class="boldText">LAST NAME<span class="requiredSymbol"> *</span></label><br>
+            <input type="text" class="field" id="last-name-input" placeholder="Enter your last name">	
+          </div>
+          <div class="formElement">
+            <label for="email-input" class="boldText">EMAIL<span class="requiredSymbol"> *</span></label><br>
+            <input type="text" class="field" id="email-input" placeholder="Enter your email address">
+          </div>
+          <div class="formElement">
+            <label for="phone-input" class="boldText">PHONE NUMBER</label><br>
+            <input type="tel" class="field" id="phone-input" maxlength="10" placeholder="Enter your phone number">
+          </div>
+          <div class="formElement" id="message-container">
+            <label for="message-input" class="boldText">MESSAGE<span class="requiredSymbol"> *</span></label><br>
+            <textarea name="message" rows="8" cols="68" maxlength="500" class="textField" id="message-input" placeholder="Enter your message here"></textarea>
+          </div>
+          <div class="formElement" id="submit-container">
+            <input type="submit" value="submit" id="submit-button" class="boldText">
+          </div> 
+        </div>   
       </form>
     </main>
     <div class="middleFoot" id="mfooter">&copy; Samantha Farley 2020</div>

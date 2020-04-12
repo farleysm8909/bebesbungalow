@@ -20,10 +20,13 @@ animatedElement.addEventListener('animationend', () => {
     rightFooter.style.display = "none";
 });
 
-/* Form validation code adapted from Stack Overflow: 
-https://stackoverflow.com/questions/12457710/validation-of-input-text-field-in-html-using-javascript 
+/* 
+** Form validation code adapted from Stack Overflow: 
+** https://stackoverflow.com/questions/12457710/validation-of-input-text-field-in-html-using-javascript 
 
-CSS keyframes animation code adapted from code by Chris Johnson as well as https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event */
+** CSS keyframes animation code adapted from code by Chris Johnson as well as 
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event 
+*/
 
 function validateForm() {
     if (isString(fnameInput)) {

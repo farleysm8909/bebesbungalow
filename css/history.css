@@ -1,117 +1,129 @@
 h4 {
-    text-align: center;
+  text-align: center;
 }
 
-.middleFoot {
-  margin-top: 0;
+.old-cabin-photo > img {
+  width: 960px;
+  height: 400px;
+  object-fit: cover;
 }
 
-.timeline-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* This isn't working */
+.new-cabin-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.new-cabin-photos > img {
+  width: 465px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Timeline code adapted from Script Tutorials
+ https://www.script-tutorials.com/vertical-timeline-with-css-and-javascript/ */
 
 #cd-timeline {
-    position: relative;
-    padding: 2em 0;
-    margin-top: 2em;
-    margin-bottom: 2em;
-  }
-  #cd-timeline::before {
-    /* this is the vertical line */
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 4px;
-    background: rgb(190, 190, 158); /* was #d7e4ed */
-    left: 50%;
-    margin-left: -2px;
-  }
-  .cd-container::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  .cd-container {
-    max-width: 1170px;
-    margin: 0 auto;
-  }
-  .cd-timeline-block:first-child {
-    margin-top: 0;
-  }
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: rgb(190, 190, 158);
+  left: 50%;
+  margin-left: -2px;
+}
+  
+.cd-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
   .cd-timeline-block {
-    position: relative;
-    margin: 4em 0;
-  }
-  .cd-timeline-content {
-    margin-left: 0;
-    width: 42%;
-    position: relative;
-    background: white;
-    border-radius: 0.25em;
-    border: 2px solid rgb(190, 190, 158);
-    padding: 1em;
-    box-shadow: 0 3px 0 #95966E;
+  position: relative;
+  margin: 4em 0;
+}
+
+.cd-timeline-content {
+  margin-left: 0;
+  width: 42%;
+  position: relative;
+  background: white;
+  border-radius: 0.25em;
+  border: 2px solid rgb(190, 190, 158);
+  padding: 1em;
+  box-shadow: 0 3px 0 #95966E;
+}
+  
+.cd-timeline-block:nth-child(even) .cd-timeline-content {
+  float: right;
+}
+
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-timeline-img {
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  margin-left: -30px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  background: #472f17;
+}
+
+.cd-timeline-img img,.cd-timeline-img svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -15px;
+  margin-top: -17px;
+}
+
+/* --------RESPONSIVE DESIGN-------- */
+
+@media (max-width: 1080px) {
+  .old-cabin-photo > img, .new-cabin-photos > img {
+    width: 100%;
   }
 
-  .cd-timeline-block:nth-child(even) .timeline-info .cd-timeline-content .cd-photo {
-    left: auto;
-    right: 122%;
-    text-align: right;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content {
-    float: right;
-  }
-  .cd-timeline-block:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .cd-timeline-img {
-    width: 60px;
-    height: 60px;
-    left: 50%;
-    margin-left: -30px;
-    transform: translateZ(0);
-    backface-visibility: hidden;
-  }
-  .cd-timeline-img {
-    position: absolute;
-    top: 0;
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-    background: #472f17;
-  }
-  .cd-timeline-img img,.cd-timeline-img svg {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    margin-left: -15px;
-    margin-top: -17px;
-  }
-  .cssanimations .cd-timeline-img.is-hidden,.cssanimations .cd-timeline-content.is-hidden {
-    visibility: hidden;
-  }
-  .cssanimations .cd-timeline-img.bounce-in,.cssanimations .cd-timeline-content.bounce-in {
-    visibility: visible;
-    animation: cd-bounce-1 0.6s;
-  }
-  @keyframes cd-bounce-1 {
-    0% {
-      opacity: 0;
-      transform: scale(0.5);
-    }
-    60% {
-      opacity: 1;
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
+.new-cabin-photos {
+    display: flex;
+    flex-direction: column;
   }
 
+  #boathouse-photo {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+    .cd-timeline-img {
+      display: none;
+    }
+
+    .cd-timeline-content {
+      width: 100%;
+    }
+}
