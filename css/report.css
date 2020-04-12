@@ -1,5 +1,14 @@
-
-.answer {
+.prompt, .answer, .report-list, .critique {
     font-family: sans-serif;
+}
+
+.prompt {
+    font-weight: bold;
+}
+.answer {
     color: black;
+}
+
+.report-list li {
+    padding: 5px 0px;
 }
