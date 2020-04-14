@@ -134,7 +134,7 @@
 		align-items: center;
 	}
 	
-	#message-input {
+	#message-input, .field {
 		width: 240px;
 	}
 }
