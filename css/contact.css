@@ -112,13 +112,13 @@
 }
 
 .fading-in {
-	animation-duration: 1s;
+	animation-duration: 3s;
 	animation-name: fadein;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -292.345px;
-	margin-top: -19.6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60%;
 }
 
   /* --------RESPONSIVE DESIGN-------- */
@@ -136,6 +136,11 @@
 	
 	#message-input, .field {
 		width: 240px;
+	}
+
+    /*Fix success message horizontal scroll on mobile */
+    #page-heading {
+		width: 100%;
 	}
 }
 

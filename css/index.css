@@ -101,9 +101,4 @@
         object-fit: cover;
         object-position: top;
     }
-
-    /*Fix success message horizontal scroll on mobile */
-    #page-heading {
-        width: 100%;
-    }
 }

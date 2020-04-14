@@ -8,6 +8,7 @@ const submitButton = document.getElementById('submit-button');
 
 const animatedElement = document.querySelector('#form');
 const pageHeading = document.getElementById('page-heading');
+const main = document.getElementById('main-content');
 const middleFooter = document.getElementById('mfooter');
 const leftFooter = document.getElementById('lfooter');
 const rightFooter = document.getElementById('rfooter');
@@ -38,8 +39,8 @@ function validateForm() {
                         leftFooter.classList.add("fading-out");
                         middleFooter.classList.add("fading-out");
                         rightFooter.classList.add("fading-out");
-                        pageHeading.classList.add("fading-in");
                         pageHeading.innerHTML = "Success! The form has been submitted";
+                        main.classList.add("fading-in");
                     }
                 }
             }
